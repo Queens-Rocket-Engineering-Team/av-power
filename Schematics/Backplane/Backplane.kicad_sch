@@ -2007,17 +2007,6 @@
 		)
 		(uuid aa7680ad-3a4a-4c5e-b173-f39eee90779d)
 	)
-	(text "desolder R2 when connected to\nlower valve bay"
-		(exclude_from_sim no)
-		(at 116.84 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03ba8016-7e1d-4e28-9aa2-9e51eb1b961d")
-	)
 	(text "Cut bridge trace when\nconnected to lower valve bay"
 		(exclude_from_sim no)
 		(at 15.24 167.64 0)
@@ -3741,76 +3730,6 @@
 			(project "Backplane"
 				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
 					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 186.69 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fc01dd0-b2c7-4687-a840-199adb7d1936")
-		(property "Reference" "H4"
-			(at 189.23 41.0753 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 189.23 43.6122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 186.69 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Vector PCB"
-				(path "/2c1d7b44-b9fb-4113-ba6e-9cd5044a1dfb"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -6370,76 +6289,6 @@
 			(project "Backplane"
 				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 186.69 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebf4b529-3207-4b3e-ac1f-47639fa42e88")
-		(property "Reference" "H4"
-			(at 189.23 35.9953 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 189.23 38.5322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 186.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Vector PCB"
-				(path "/2c1d7b44-b9fb-4113-ba6e-9cd5044a1dfb"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "H9")
 					(unit 1)
 				)
 			)

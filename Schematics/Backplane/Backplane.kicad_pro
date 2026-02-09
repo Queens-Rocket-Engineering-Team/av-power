@@ -507,7 +507,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BackplaneWithHole.step",
+      "step": "../../../../../../Downloads/BackplaneWithConnector.step",
       "svg": "",
       "vrml": "Backplane.wrl"
     },
