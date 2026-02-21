@@ -616,6 +616,18 @@
     [
       "11b1f19b-ce82-4fce-baf6-0357ef2e3f24",
       "Root"
+    ],
+    [
+      "f4c51f51-72e5-4abd-a0d4-d966d9c5494e",
+      "power"
+    ],
+    [
+      "0d4d1294-ccf0-404c-9521-5e9addbc8fbf",
+      "mcu"
+    ],
+    [
+      "9cd93e14-529d-4d54-8401-cafe904bdef2",
+      "charger"
     ]
   ],
   "text_variables": {}
