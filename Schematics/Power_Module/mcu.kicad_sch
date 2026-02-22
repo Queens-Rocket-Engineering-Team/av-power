@@ -6799,7 +6799,7 @@
 			)
 		)
 	)
-	(global_label "BATT"
+	(global_label "V_BATT"
 		(shape input)
 		(at 269.24 30.48 0)
 		(fields_autoplaced yes)
@@ -6811,7 +6811,7 @@
 		)
 		(uuid "0a1282a4-2ee0-4706-ab82-53c34496f24b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.519 30.48 0)
+			(at 278.5752 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

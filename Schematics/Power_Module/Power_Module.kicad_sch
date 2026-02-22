@@ -13,18 +13,8 @@
 		(comment 4 "GRID = 0.635mm")
 	)
 	(lib_symbols)
-	(text "Input is muxed between 24V and BAT_A"
-		(exclude_from_sim no)
-		(at 6.35 76.2 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d880b214-ae1f-443a-9c56-c3f82b96fe62")
-	)
 	(sheet
-		(at 106.68 78.74)
+		(at 158.75 81.28)
 		(size 34.29 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -36,7 +26,7 @@
 		)
 		(uuid "0d4d1294-ccf0-404c-9521-5e9addbc8fbf")
 		(property "Sheetname" "mcu"
-			(at 106.68 78.0284 0)
+			(at 158.75 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +35,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 106.68 102.1846 0)
+			(at 158.75 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,45 +52,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 79.375)
-		(size 40.64 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9cd93e14-529d-4d54-8401-cafe904bdef2")
-		(property "Sheetname" "charger"
-			(at 165.1 78.6634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "battery_charger.kicad_sch"
-			(at 165.1 100.2796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Power_Module"
-				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 50.165 78.105)
+		(at 102.235 80.645)
 		(size 38.735 22.225)
 		(fields_autoplaced yes)
 		(stroke
@@ -112,7 +64,7 @@
 		)
 		(uuid "f4c51f51-72e5-4abd-a0d4-d966d9c5494e")
 		(property "Sheetname" "power"
-			(at 50.165 77.3934 0)
+			(at 102.235 79.9334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 50.165 100.9146 0)
+			(at 102.235 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
