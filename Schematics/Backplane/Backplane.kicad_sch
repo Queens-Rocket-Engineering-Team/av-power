@@ -464,12 +464,12 @@
 				)
 			)
 		)
-		(symbol "EdgeConnnectorV1.1:Stack Female Edge Connector"
+		(symbol "EdgeConnnectorV2:Stack Female Edge Connector"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 26.95 0)
+				(at 0 25.654 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -477,7 +477,7 @@
 				)
 			)
 			(property "Value" "Stack Female Edge Connector"
-				(at 0 24.41 0)
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -502,8 +502,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 1"
-				(at 5.08 1.016 0)
+			(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
+				(at 2.794 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -570,7 +570,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -13.97 -12.7 0)
+					(at -13.97 -19.05 0)
 					(length 3.81)
 					(name "Reserved"
 						(effects
@@ -588,7 +588,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -13.97 -15.24 0)
+					(at -13.97 -16.51 0)
 					(length 3.81)
 					(name "Reserved"
 						(effects
@@ -605,9 +605,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 13.97 -7.62 180)
-					(length 3.81) hide
+				(pin power_out line
+					(at 13.97 -17.78 180)
+					(length 3.81)
 					(name "GND_B"
 						(effects
 							(font
@@ -642,7 +642,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -13.97 -17.78 0)
+					(at -13.97 -13.97 0)
 					(length 3.81)
 					(name "Reserved"
 						(effects
@@ -659,10 +659,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 13.97 -13.97 180)
+				(pin no_connect line
+					(at -13.97 -11.43 0)
 					(length 3.81)
-					(name "24V_C"
+					(name "Reserved"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -677,10 +677,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 13.97 -13.97 180)
-					(length 3.81) hide
-					(name "24V_C"
+				(pin power_in line
+					(at 13.97 11.43 180)
+					(length 3.81)
+					(name "24V_A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -695,10 +695,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 13.97 -13.97 180)
-					(length 3.81) hide
-					(name "24V_C"
+				(pin no_connect line
+					(at -13.97 -8.89 0)
+					(length 3.81)
+					(name "Reserved"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -714,9 +714,9 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -13.97 180)
+					(at 13.97 11.43 180)
 					(length 3.81) hide
-					(name "24V_C"
+					(name "24V_A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -750,7 +750,7 @@
 					)
 				)
 				(pin power_out line
-					(at 13.97 7.62 180)
+					(at 13.97 3.81 180)
 					(length 3.81)
 					(name "GND_A"
 						(effects
@@ -804,7 +804,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 7.62 180)
+					(at 13.97 3.81 180)
 					(length 3.81) hide
 					(name "GND_A"
 						(effects
@@ -822,7 +822,7 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 0 180)
+					(at 13.97 -10.16 180)
 					(length 3.81)
 					(name "3.3V_B"
 						(effects
@@ -840,7 +840,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 0 180)
+					(at 13.97 -10.16 180)
 					(length 3.81) hide
 					(name "3.3V_B"
 						(effects
@@ -857,9 +857,9 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 13.97 -7.62 180)
-					(length 3.81)
+				(pin passive line
+					(at 13.97 -17.78 180)
+					(length 3.81) hide
 					(name "GND_B"
 						(effects
 							(font
@@ -876,7 +876,7 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 11.43 180)
+					(at 13.97 7.62 180)
 					(length 3.81)
 					(name "BATT_A"
 						(effects
@@ -894,7 +894,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -7.62 180)
+					(at 13.97 -17.78 180)
 					(length 3.81) hide
 					(name "GND_B"
 						(effects
@@ -912,7 +912,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -7.62 180)
+					(at 13.97 -17.78 180)
 					(length 3.81) hide
 					(name "GND_B"
 						(effects
@@ -930,7 +930,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -7.62 180)
+					(at 13.97 -17.78 180)
 					(length 3.81) hide
 					(name "GND_B"
 						(effects
@@ -983,10 +983,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 13.97 -17.78 180)
+				(pin no_connect line
+					(at -13.97 -6.35 0)
 					(length 3.81)
-					(name "GND_C"
+					(name "Reserved"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1001,10 +1001,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 13.97 -17.78 180)
-					(length 3.81) hide
-					(name "GND_C"
+				(pin no_connect line
+					(at -13.97 -3.81 0)
+					(length 3.81)
+					(name "Reserved"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1019,10 +1019,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 13.97 -17.78 180)
-					(length 3.81) hide
-					(name "GND_C"
+				(pin no_connect line
+					(at -13.97 -1.27 0)
+					(length 3.81)
+					(name "Reserved"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1037,10 +1037,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 13.97 -17.78 180)
-					(length 3.81) hide
-					(name "GND_C"
+				(pin no_connect line
+					(at -13.97 1.27 0)
+					(length 3.81)
+					(name "Reserved"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1056,7 +1056,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 11.43 180)
+					(at 13.97 7.62 180)
 					(length 3.81) hide
 					(name "BATT_A"
 						(effects
@@ -1074,7 +1074,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 11.43 180)
+					(at 13.97 7.62 180)
 					(length 3.81) hide
 					(name "BATT_A"
 						(effects
@@ -1092,7 +1092,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 7.62 180)
+					(at 13.97 3.81 180)
 					(length 3.81) hide
 					(name "GND_A"
 						(effects
@@ -1110,7 +1110,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 7.62 180)
+					(at 13.97 3.81 180)
 					(length 3.81) hide
 					(name "GND_A"
 						(effects
@@ -1128,7 +1128,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 7.62 180)
+					(at 13.97 3.81 180)
 					(length 3.81) hide
 					(name "GND_A"
 						(effects
@@ -1146,7 +1146,7 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 -3.81 180)
+					(at 13.97 -13.97 180)
 					(length 3.81)
 					(name "BATT_B"
 						(effects
@@ -1164,7 +1164,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -3.81 180)
+					(at 13.97 -13.97 180)
 					(length 3.81) hide
 					(name "BATT_B"
 						(effects
@@ -1182,7 +1182,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -3.81 180)
+					(at 13.97 -13.97 180)
 					(length 3.81) hide
 					(name "BATT_B"
 						(effects
@@ -1850,54 +1850,24 @@
 		)
 	)
 	(no_connect
+		(at 24.13 73.66)
+		(uuid "0027d951-37d9-4bdf-8404-b8ad3fbbcae6")
+	)
+	(no_connect
 		(at 24.13 25.4)
 		(uuid "250634fd-6fd8-4598-8f90-d96e599afe34")
 	)
 	(no_connect
-		(at 70.485 73.66)
-		(uuid "47b37adc-d335-49a4-b572-ae466577be53")
+		(at 69.85 25.4)
+		(uuid "9e02f63c-8665-4610-9591-09818c342c84")
 	)
 	(no_connect
-		(at 69.85 24.13)
-		(uuid "4d113cb8-1349-411c-90ed-89bd6af561c7")
+		(at 120.65 26.67)
+		(uuid "b42223f1-11dc-4d1e-829f-53b8e7be90b2")
 	)
 	(no_connect
-		(at 116.84 24.13)
-		(uuid "8788ea9e-53ba-4132-b0de-c416439e19b8")
-	)
-	(no_connect
-		(at 24.13 73.66)
-		(uuid "900a439c-bf25-4eec-bf1a-3294089a60cf")
-	)
-	(wire
-		(pts
-			(xy 134.62 87.63) (xy 139.7 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e5661f-637e-493f-91f8-7d8eaf61af03")
-	)
-	(wire
-		(pts
-			(xy 139.7 83.82) (xy 139.7 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78e4a3f3-1837-412e-883b-70ce54701816")
-	)
-	(wire
-		(pts
-			(xy 142.24 88.9) (xy 142.24 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "863d3da0-1e18-4749-939d-4881b7ef0a67")
+		(at 69.85 73.66)
+		(uuid "bff0887c-8bf1-4683-b75e-a6d52b85b245")
 	)
 	(wire
 		(pts
@@ -1951,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 83.82) (xy 137.16 83.82)
+			(xy 137.16 86.36) (xy 137.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2111,6 +2081,7 @@
 	)
 	(label "TERM_P"
 		(at 17.78 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2118,9 +2089,20 @@
 			(justify left bottom)
 		)
 		(uuid "8a3a1785-e727-4461-8b05-3d6e401c976e")
+		(property "Netclass" "DP_90R"
+			(at 17.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "TERM_N"
 		(at 17.78 156.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2128,10 +2110,20 @@
 			(justify left bottom)
 		)
 		(uuid "ae8f9504-b25c-4e80-a313-d5ac98679292")
+		(property "Netclass" "DP_90R"
+			(at 17.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
-	(global_label "3.3V_B"
+	(global_label "BATT_A"
 		(shape passive)
-		(at 52.07 92.71 0)
+		(at 148.59 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2139,9 +2131,9 @@
 			)
 			(justify left)
 		)
-		(uuid "054354f9-cf35-4004-91e4-50cbf4175985")
+		(uuid "085d676e-e54e-4812-9850-9d9d68b906de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.2939 92.71 0)
+			(at 156.8139 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,53 +2165,9 @@
 			)
 		)
 	)
-	(global_label "CAN_N"
+	(global_label "3.3V_A"
 		(shape passive)
-		(at 69.85 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ff2d200-3d69-4754-a6e8-bd9bc53f7c2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.2913 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_N"
-		(shape passive)
-		(at 69.85 27.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10284fc5-1103-41d3-9ab5-8339445cac2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.2913 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "24V_A"
-		(shape passive)
-		(at 97.79 106.68 0)
+		(at 97.79 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2227,9 +2175,31 @@
 			)
 			(justify left)
 		)
-		(uuid "140688f3-b4be-4e26-b8cc-0c00a8dc9577")
+		(uuid "0c2929c3-3fd0-4375-a1c2-65800ebc16fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.2277 106.68 0)
+			(at 105.8325 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_B"
+		(shape passive)
+		(at 97.79 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1395bfb5-cd20-4165-bade-2c1c61ffb534")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.0139 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2221,17 @@
 		)
 		(uuid "14d7a2b0-e84b-4534-a473-9a6665013982")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.2689 33.02 0)
+			(at 16.3294 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 24.13 35.2108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,9 +2241,9 @@
 			)
 		)
 	)
-	(global_label "BATT_A"
+	(global_label "5.0V_A"
 		(shape passive)
-		(at 97.79 81.28 0)
+		(at 97.79 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2271,9 +2251,9 @@
 			)
 			(justify left)
 		)
-		(uuid "22a4409b-2dde-4182-ae90-12cdb1680513")
+		(uuid "15eea134-2015-455f-934e-3e7b0d6de545")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.0139 81.28 0)
+			(at 105.8325 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2265,7 @@
 	)
 	(global_label "BATT_A"
 		(shape passive)
-		(at 52.07 81.28 0)
+		(at 97.79 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2293,9 +2273,9 @@
 			)
 			(justify left)
 		)
-		(uuid "25fb7422-0f3a-42bf-be7e-e393437dc0fc")
+		(uuid "16ae0550-7a11-4eb1-88d2-16b75edbc6b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.2939 81.28 0)
+			(at 106.0139 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,9 +2285,9 @@
 			)
 		)
 	)
-	(global_label "BATT_B"
+	(global_label "5.0V_A"
 		(shape passive)
-		(at 144.78 46.99 0)
+		(at 97.79 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2315,9 +2295,9 @@
 			)
 			(justify left)
 		)
-		(uuid "30dee54a-40e6-466d-9694-ea404257fbbe")
+		(uuid "2a77d0e7-ed6d-4cef-b6ac-27b81219eb9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.1853 46.99 0)
+			(at 105.8325 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,9 +2307,9 @@
 			)
 		)
 	)
-	(global_label "CAN_P"
+	(global_label "CAN_N"
 		(shape passive)
-		(at 69.85 81.28 180)
+		(at 69.85 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2337,9 +2317,19 @@
 			)
 			(justify right)
 		)
-		(uuid "34e006e8-e2cb-4c49-87ca-6c5859a97ac9")
+		(uuid "2bb142ba-2e39-43a5-b5ff-e1f02e4844cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.9889 81.28 0)
+			(at 61.9889 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 69.85 31.4008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,9 +2339,9 @@
 			)
 		)
 	)
-	(global_label "BATT_B"
+	(global_label "24V_A"
 		(shape passive)
-		(at 97.79 46.99 0)
+		(at 97.79 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2359,9 +2349,31 @@
 			)
 			(justify left)
 		)
-		(uuid "38eda93f-2336-4e8e-957b-751bc030df68")
+		(uuid "2f5dced0-c244-42a0-9eec-be396825687f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.1953 46.99 0)
+			(at 105.2277 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_B"
+		(shape passive)
+		(at 148.59 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "348cf25f-75cd-4831-8d9a-be98fad3dd82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.8139 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2385,7 @@
 	)
 	(global_label "BATT_B"
 		(shape passive)
-		(at 52.07 48.26 0)
+		(at 52.07 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2383,7 +2395,7 @@
 		)
 		(uuid "399bf6ba-26e9-4360-8e01-91f51bc59f6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4753 48.26 0)
+			(at 60.4753 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,24 +2405,24 @@
 			)
 		)
 	)
-	(global_label "CAN_P"
+	(global_label "24V_A"
 		(shape passive)
-		(at 116.84 31.75 180)
+		(at 52.07 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "3f57b1c8-0411-4203-8c38-a3a56b0a73a6")
+		(uuid "3fa0ef81-7d7a-4286-9c7d-93749404d57b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.9789 31.75 0)
+			(at 59.5077 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2437,28 +2449,6 @@
 			)
 		)
 	)
-	(global_label "3.3V_A"
-		(shape passive)
-		(at 52.07 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40f765c3-f22f-4c5c-87eb-6bab5fbfd02c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.1125 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_N"
 		(shape passive)
 		(at 29.21 156.21 0)
@@ -2480,10 +2470,86 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "DP_90R"
+			(at 29.21 158.4008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "3.3V_A"
 		(shape passive)
-		(at 149.86 83.82 270)
+		(at 52.07 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "456eb97b-6178-4647-9345-9155f4e7cb3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.1125 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_A"
+		(shape passive)
+		(at 52.07 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "463b1497-b9be-4a28-a36b-a3b862771553")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.2939 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5.0V_A"
+		(shape passive)
+		(at 148.59 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "500967f4-4bb4-4dbc-9e79-4a1cb3f037a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.6325 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_P"
+		(shape passive)
+		(at 142.24 83.82 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2491,9 +2557,9 @@
 			)
 			(justify right)
 		)
-		(uuid "455b3568-478f-4f85-ad25-761adef00caa")
+		(uuid "5749bcc0-3fc4-47b2-bf73-c67a2b040b01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 91.8625 90)
+			(at 142.24 91.6206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,69 +2568,13 @@
 				(hide yes)
 			)
 		)
-	)
-	(global_label "24V_A"
-		(shape passive)
-		(at 97.79 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4787812a-3160-47fd-9df5-2a248db82ac0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.2277 57.15 0)
+		(property "Netclass" "DP_90R"
+			(at 144.4308 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V_B"
-		(shape passive)
-		(at 97.79 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56a08dad-9ae7-413c-913e-0e32f3784adc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.0139 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V_B"
-		(shape passive)
-		(at 144.78 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b4e4f4f-ff9f-40c2-8419-2ae079010f98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.0039 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2591,51 +2601,7 @@
 			)
 		)
 	)
-	(global_label "CAN_P"
-		(shape passive)
-		(at 133.35 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6778244e-deb2-4c17-a33d-8934c72db331")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.4889 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_N"
-		(shape passive)
-		(at 134.62 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69181659-abbb-41de-9c87-3888b22d8e38")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.0613 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATT_A"
+	(global_label "24V_A"
 		(shape passive)
 		(at 52.07 33.02 0)
 		(fields_autoplaced yes)
@@ -2645,9 +2611,31 @@
 			)
 			(justify left)
 		)
-		(uuid "6e2fb370-c3ea-420c-8ccf-2329873a8779")
+		(uuid "7368d15c-b713-40fa-9b08-54d6e22ba19e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.2939 33.02 0)
+			(at 59.5077 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "24V_A"
+		(shape passive)
+		(at 148.59 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7db2dbd9-889a-49ea-93e2-e616269e1334")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.0277 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2647,7 @@
 	)
 	(global_label "CAN_P"
 		(shape passive)
-		(at 69.85 31.75 180)
+		(at 120.65 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2667,9 +2655,9 @@
 			)
 			(justify right)
 		)
-		(uuid "73cc6e8b-d74a-49d1-8595-10d4d5d7a477")
+		(uuid "7e34b7bf-b17a-404d-8e4e-cea7db627b20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.9889 31.75 0)
+			(at 112.8494 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,69 +2666,13 @@
 				(hide yes)
 			)
 		)
-	)
-	(global_label "24V_A"
-		(shape passive)
-		(at 52.07 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7799dd8a-5b3e-4a5c-9d3e-eb1f88985bee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.5077 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_N"
-		(shape passive)
-		(at 24.13 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ea6458c-1c2f-4353-9eae-97c4df98ed73")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5713 77.47 0)
+		(property "Netclass" "DP_90R"
+			(at 120.65 36.4808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5.0V_A"
-		(shape passive)
-		(at 97.79 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "833b3efa-26fd-4844-98b6-93b66840c4da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8325 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2767,9 +2699,9 @@
 			)
 		)
 	)
-	(global_label "5.0V_A"
+	(global_label "3.3V_A"
 		(shape passive)
-		(at 144.78 27.94 0)
+		(at 148.59 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2777,9 +2709,9 @@
 			)
 			(justify left)
 		)
-		(uuid "91910051-3727-4a6e-825c-48c742cc8adc")
+		(uuid "87dc4132-3569-4fca-bb86-84ffdce5e2b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.8225 27.94 0)
+			(at 156.6325 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,9 +2721,41 @@
 			)
 		)
 	)
-	(global_label "5.0V_A"
+	(global_label "CAN_N"
 		(shape passive)
-		(at 52.07 77.47 0)
+		(at 139.7 83.82 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a29dd13-e256-49f2-aa33-37194c869489")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 91.6811 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 141.8908 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_B"
+		(shape passive)
+		(at 97.79 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2799,14 +2763,112 @@
 			)
 			(justify left)
 		)
-		(uuid "9a494435-ae07-4ee1-9df3-ac297b2fbf07")
+		(uuid "8b21ed09-11ac-4c7d-b164-4a027792386e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.1125 77.47 0)
+			(at 106.0139 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_B"
+		(shape passive)
+		(at 148.59 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93e89bba-ff29-4ec5-8e16-0a36f889cfa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.9953 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_A"
+		(shape passive)
+		(at 97.79 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "953033d3-3ad6-4aaa-8d70-416b8e4dbd3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.0139 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "24V_A"
+		(shape passive)
+		(at 97.79 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96132b8f-aaec-41d6-8980-c29b174da944")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.2277 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_N"
+		(shape passive)
+		(at 24.13 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "981270b4-8e8c-4d3b-833e-a69c2cf53285")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.2689 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 24.13 79.6608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2823,7 +2885,61 @@
 		)
 		(uuid "9f6d90f5-5216-40b0-952a-6a03d359284c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.0711 148.59 0)
+			(at 37.0106 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 29.21 150.7808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_B"
+		(shape passive)
+		(at 97.79 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fbe5cb6-9c68-461e-a987-7f7dd4c44179")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.1953 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_B"
+		(shape passive)
+		(at 97.79 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3480c41-288a-473c-840c-bc4739be82f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.1953 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2951,7 @@
 	)
 	(global_label "BATT_A"
 		(shape passive)
-		(at 144.78 31.75 0)
+		(at 52.07 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2843,9 +2959,9 @@
 			)
 			(justify left)
 		)
-		(uuid "a12ebbbe-fef3-471e-808c-a73810f81b4a")
+		(uuid "a3dfbe83-873d-4465-a86e-aa41bfda0e62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.0039 31.75 0)
+			(at 60.2939 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,9 +2971,9 @@
 			)
 		)
 	)
-	(global_label "CAN_P"
+	(global_label "CAN_N"
 		(shape passive)
-		(at 24.13 81.28 180)
+		(at 120.65 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2865,9 +2981,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a18f7abe-41cc-4093-891a-85e30e277b2e")
+		(uuid "a63e89a3-f3ca-4d8c-a683-8c703393272d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.2689 81.28 0)
+			(at 112.7889 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,25 +2992,13 @@
 				(hide yes)
 			)
 		)
-	)
-	(global_label "5.0V_A"
-		(shape passive)
-		(at 97.79 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a7aa2a30-3b85-4824-8c3d-ddf02824e2fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8325 27.94 0)
+		(property "Netclass" "DP_90R"
+			(at 120.65 32.6708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2921,31 +3025,41 @@
 			)
 		)
 	)
-	(global_label "BATT_B"
+	(global_label "CAN_P"
 		(shape passive)
-		(at 97.79 96.52 0)
+		(at 69.85 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "aa36affb-e84a-4fff-91b5-4830348fea2a")
+		(uuid "aa2b0df2-41bb-4af5-8776-6d76621263ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.1953 96.52 0)
+			(at 62.0494 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 69.85 35.2108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "3.3V_A"
 		(shape passive)
-		(at 97.79 24.13 0)
+		(at 97.79 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2953,9 +3067,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b9ce4ce3-aec5-42e9-b60b-0aa652cd674f")
+		(uuid "b0df50be-56f6-4fdb-a2ab-002b9944bb9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8325 24.13 0)
+			(at 105.8325 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3113,17 @@
 		)
 		(uuid "bcceff04-02cc-46e3-909e-4ee98b2c0011")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5713 29.21 0)
+			(at 16.2689 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 24.13 31.4008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,10 +3154,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "DP_90R"
+			(at 29.21 141.8908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(global_label "CAN_N"
+	(global_label "CAN_P"
 		(shape passive)
-		(at 116.84 27.94 180)
+		(at 69.85 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3041,9 +3175,19 @@
 			)
 			(justify right)
 		)
-		(uuid "cb770836-d499-41db-97cd-0de42b035bed")
+		(uuid "c646c618-77a1-4365-ac64-29b9dbf7c9d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.2813 27.94 0)
+			(at 62.0494 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 69.85 83.4708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,24 +3197,34 @@
 			)
 		)
 	)
-	(global_label "3.3V_B"
+	(global_label "CAN_N"
 		(shape passive)
-		(at 97.79 43.18 0)
+		(at 69.85 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "cd5c5575-34be-4555-a098-a22c94e551ec")
+		(uuid "cc1c6382-71a6-4d96-888e-53086ccdd022")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.0139 43.18 0)
+			(at 61.9889 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 69.85 79.6608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3097,9 +3251,41 @@
 			)
 		)
 	)
-	(global_label "3.3V_A"
+	(global_label "CAN_P"
 		(shape passive)
-		(at 144.78 24.13 0)
+		(at 24.13 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5aa7526-0f1c-4b81-9c24-c4454a395815")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.3294 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 24.13 83.4708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V_B"
+		(shape passive)
+		(at 52.07 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3107,9 +3293,31 @@
 			)
 			(justify left)
 		)
-		(uuid "dcbbf068-d0a6-458c-9728-fe21a7f70d2f")
+		(uuid "d73f672a-64e4-46c9-bf67-52d1d7330ff2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.8225 24.13 0)
+			(at 60.2939 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BATT_B"
+		(shape passive)
+		(at 52.07 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7d25641-6e83-4f1a-88e0-1c9b2fda6ccc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.4753 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,28 +3349,6 @@
 			)
 		)
 	)
-	(global_label "3.3V_A"
-		(shape passive)
-		(at 97.79 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2503301-7636-4910-ae90-f0f73fa72d0f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.8325 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_P"
 		(shape passive)
 		(at 29.21 130.81 0)
@@ -3175,7 +3361,17 @@
 		)
 		(uuid "e279f69e-c56c-4a33-baf5-b28835748d7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.0711 130.81 0)
+			(at 37.0106 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "DP_90R"
+			(at 29.21 133.0008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,53 +3381,31 @@
 			)
 		)
 	)
-	(global_label "BATT_B"
+	(global_label "3.3V_A"
 		(shape passive)
-		(at 52.07 96.52 0)
+		(at 149.86 83.82 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e5485252-3613-4b5b-9f8e-df7b9af95e8b")
+		(uuid "ec950c23-65c6-4842-83f8-2aa88f95a8c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4753 96.52 0)
+			(at 149.86 91.8625 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "24V_A"
-		(shape passive)
-		(at 144.78 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9752d13-5188-451e-83fe-4453e320ddb3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.2177 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "3.3V_B"
 		(shape passive)
-		(at 52.07 44.45 0)
+		(at 52.07 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3241,7 +3415,7 @@
 		)
 		(uuid "f2814406-320d-435b-a05b-8a2094beb328")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.2939 44.45 0)
+			(at 60.2939 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,9 +3425,9 @@
 			)
 		)
 	)
-	(global_label "BATT_A"
+	(global_label "5.0V_A"
 		(shape passive)
-		(at 97.79 31.75 0)
+		(at 52.07 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3261,339 +3435,15 @@
 			)
 			(justify left)
 		)
-		(uuid "f64f7e2b-1c0b-4cb3-8ca0-c9de4e646d09")
+		(uuid "fee0ca99-c0b4-4858-af7a-c918350cd2ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.0139 31.75 0)
+			(at 60.1125 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(global_label "24V_A"
-		(shape passive)
-		(at 52.07 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9186b55-0545-47ac-b163-ae68f931498c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.5077 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 142.24 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "017429d1-a19f-4168-aa61-471a5a2dd748")
-		(property "Reference" "#PWR16"
-			(at 142.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 138.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7260c62-4e74-4dc5-8dbd-d6140e5fbb70")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EdgeConnnectorV1.1:Stack Female Edge Connector")
-		(at 83.82 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01a07d2a-b6d3-4690-bae7-58b81941a316")
-		(property "Reference" "J2"
-			(at 83.82 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Edge Connector (SLOT 2)"
-			(at 83.82 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:AMPHENOL_10018784-10210TLF"
-			(at 83.82 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-12-233.pdf"
-			(at 77.724 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
-			(at 88.9 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A18"
-			(uuid "1b5d1402-e0aa-4c23-907f-646e0feb5cd3")
-		)
-		(pin "A5"
-			(uuid "bb337588-79d8-4e16-ab29-cbd0dca922dd")
-		)
-		(pin "B13"
-			(uuid "b548356b-538e-4052-92bf-bc02235961ed")
-		)
-		(pin "A7"
-			(uuid "9cbcadd0-6498-4c51-b7ad-809275efc1d9")
-		)
-		(pin "B2"
-			(uuid "91231294-c349-47cc-8a01-43daa10f5eba")
-		)
-		(pin "A4"
-			(uuid "ba05abd7-cf4a-402d-9abf-97e08dd5528a")
-		)
-		(pin "B5"
-			(uuid "1cbe261a-c535-487d-b08c-0a9c4ef96f0b")
-		)
-		(pin "A16"
-			(uuid "7749f11f-fdd5-4663-98fd-0487e7f7b8d1")
-		)
-		(pin "B10"
-			(uuid "04a47cea-d941-4977-a39a-eba9d95530b9")
-		)
-		(pin "B16"
-			(uuid "231140b4-987b-40d6-8b86-570b7dcbbfca")
-		)
-		(pin "B1"
-			(uuid "e21ba5b0-9074-4ae0-91e1-d84ed7382ec0")
-		)
-		(pin "B14"
-			(uuid "be40e315-6657-4e6b-a512-bb4ceb18fedd")
-		)
-		(pin "A2"
-			(uuid "a6ffb3f6-48b3-4bb6-8bd7-e3aa8c379bb5")
-		)
-		(pin "B17"
-			(uuid "94440f43-0ac4-4b52-9fdb-39ec314111ea")
-		)
-		(pin "B3"
-			(uuid "07a77bfb-d977-4f33-b0b5-8778cb63fb66")
-		)
-		(pin "A3"
-			(uuid "41f1ff4e-ac36-46f3-b335-b84d08c53ba0")
-		)
-		(pin "B4"
-			(uuid "3743fb0f-9562-4f27-83eb-39149390180d")
-		)
-		(pin "A6"
-			(uuid "0b6ce95a-3514-4073-909a-16969d92adfd")
-		)
-		(pin "B18"
-			(uuid "08bb2716-430c-4b4a-ae1c-34cef898bf21")
-		)
-		(pin "A9"
-			(uuid "cefef79c-d487-4d5c-ae7c-fdc40f8670f1")
-		)
-		(pin "B8"
-			(uuid "f243577a-65cb-4a70-8379-1bca716be553")
-		)
-		(pin "B11"
-			(uuid "aae57785-ee72-4cd2-864a-660486bf43ac")
-		)
-		(pin "B6"
-			(uuid "9f40ef21-19f3-451e-b400-778d95c3fbc6")
-		)
-		(pin "A17"
-			(uuid "5b10818a-1cf3-4a8f-8206-a24dbdae8d21")
-		)
-		(pin "B15"
-			(uuid "8fe4b2f8-66ff-4390-aceb-66b97e9c3aab")
-		)
-		(pin "B12"
-			(uuid "0145f5fc-3123-4bfb-9210-b02b0f0d7025")
-		)
-		(pin "A8"
-			(uuid "70c97233-70c5-4e8f-87c1-825ba3fd7446")
-		)
-		(pin "A13"
-			(uuid "56afcb17-dbdb-48a4-99bc-9618f8a4c706")
-		)
-		(pin "B7"
-			(uuid "522b2aa9-2853-40d8-8ed1-b42e160f3f26")
-		)
-		(pin "A15"
-			(uuid "3992dd85-78be-4e12-980f-d5c760da7f7f")
-		)
-		(pin "B9"
-			(uuid "247753be-be62-472c-9c0a-7b808156d8a9")
-		)
-		(pin "A12"
-			(uuid "b51fa4d7-271d-45ea-ad65-52ed73f1ffd3")
-		)
-		(pin "A11"
-			(uuid "3a7111d5-63b9-4f91-a9ac-0f8ac169cf66")
-		)
-		(pin "A10"
-			(uuid "9583ec1a-e124-4f78-adb9-9ccb512d2e1b")
-		)
-		(pin "A1"
-			(uuid "40913ab6-cb47-424d-bd6f-b96bec95f7ba")
-		)
-		(pin "A14"
-			(uuid "3ca29e09-94ac-494a-b1e4-f1617382ae2a")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 144.78 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05ec52d5-ad09-4740-992e-96044c8a8e8e")
-		(property "Reference" "#PWR14"
-			(at 151.13 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 147.955 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cb95e63-88ba-4292-9f1c-6ed3f6800d73")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR14")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3685,7 +3535,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Bridged"
+		(property "Value" "3.3V Bridge"
 			(at 76.2 130.81 0)
 			(effects
 				(font
@@ -3736,17 +3586,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 52.07 36.83 90)
+		(lib_id "EdgeConnnectorV2:Stack Female Edge Connector")
+		(at 83.82 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "16f6e818-437e-4365-a956-21caf8dfc8ff")
-		(property "Reference" "#PWR1"
-			(at 58.42 36.83 0)
+		(uuid "176cb8ce-c78b-42d1-8c52-971284a9f8be")
+		(property "Reference" "J2"
+			(at 83.82 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Edge Connector (SLOT 2)"
+			(at 83.82 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AMPHENOL_10018784-10210TLF"
+			(at 83.82 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,17 +3620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 55.245 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 36.83 0)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-12-233.pdf"
+			(at 77.724 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,8 +3629,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 52.07 36.83 0)
+		(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
+			(at 86.614 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,89 +3638,118 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 52.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "B3"
+			(uuid "c836b47f-acdb-4d9f-b1c0-ad44437438e7")
 		)
-		(pin "1"
-			(uuid "6967662a-abc1-4b93-90ce-cf18160a4108")
+		(pin "B9"
+			(uuid "c526912e-858e-49cb-90d6-5830071ef3e0")
+		)
+		(pin "B11"
+			(uuid "129dcb4a-b0ab-461f-9051-6625e8e20b63")
+		)
+		(pin "B1"
+			(uuid "1a109313-019b-4c82-b49c-dbfb384becbc")
+		)
+		(pin "B5"
+			(uuid "d90817c2-7eeb-4e16-a619-1ac24c337eca")
+		)
+		(pin "A7"
+			(uuid "76a7dcd0-0e0b-43e9-9f1b-2750d774f7e4")
+		)
+		(pin "A17"
+			(uuid "310592ca-2a32-4ef6-bb96-7836e773279e")
+		)
+		(pin "A2"
+			(uuid "e3625b07-b163-49b1-b275-4e7a65469eac")
+		)
+		(pin "B4"
+			(uuid "58dc4fd8-cb57-45ca-8338-37d6f25f4adc")
+		)
+		(pin "A3"
+			(uuid "e1735958-dd7c-4a06-a420-973e8ea25637")
+		)
+		(pin "A9"
+			(uuid "c208d467-cf0f-48c6-be98-cb8f33dbb1d3")
+		)
+		(pin "B8"
+			(uuid "3944bc48-2703-42c0-93a1-4992eabf301c")
+		)
+		(pin "B10"
+			(uuid "b03918d5-daad-4f8b-acb9-d3c033db1f3e")
+		)
+		(pin "A4"
+			(uuid "358d5224-ad04-461a-a7cb-e70164fd5f14")
+		)
+		(pin "B6"
+			(uuid "369c4e4b-572a-41d5-8c95-b522ee155faa")
+		)
+		(pin "B15"
+			(uuid "5842bc17-bae6-4429-a310-3429c08e62ac")
+		)
+		(pin "B14"
+			(uuid "12190e0f-07f8-46a6-b8e1-eb4043823e7a")
+		)
+		(pin "A8"
+			(uuid "c27ea412-b02a-4622-b031-71db40e36f1f")
+		)
+		(pin "B13"
+			(uuid "5323ab11-8eb2-4a25-8499-586b2d9d445b")
+		)
+		(pin "A12"
+			(uuid "bd8c82d2-f8cf-4706-93e9-41e7043c3251")
+		)
+		(pin "A11"
+			(uuid "6b8103e4-cea5-47b6-8b97-7608018826be")
+		)
+		(pin "B18"
+			(uuid "e5185391-af64-4c37-8540-a74403ac2813")
+		)
+		(pin "A1"
+			(uuid "ff527338-05f9-4987-bae3-53fe661751e0")
+		)
+		(pin "A14"
+			(uuid "0a52b34e-b46d-4dae-a863-f06471eff393")
+		)
+		(pin "B17"
+			(uuid "ebcdba17-854c-4d87-a615-cd84f90c975c")
+		)
+		(pin "A13"
+			(uuid "26bea5bf-e786-4df6-8ef8-1b87e8401d55")
+		)
+		(pin "A15"
+			(uuid "60f1c079-92db-45ec-96ad-b7d5e0c1088b")
+		)
+		(pin "B2"
+			(uuid "f931df78-cefb-4275-9233-ae88553d54b3")
+		)
+		(pin "A10"
+			(uuid "d1eeb246-b9e7-4cd7-ae57-6b95dc1d25b0")
+		)
+		(pin "A18"
+			(uuid "98938828-5430-41d8-87b7-71bba4c46511")
+		)
+		(pin "A6"
+			(uuid "ff8977e6-4d8c-4bdb-880d-01a4be8994f2")
+		)
+		(pin "A5"
+			(uuid "10a4c72e-5b6e-4fbc-b9a3-26a319e4b610")
+		)
+		(pin "B12"
+			(uuid "38f01746-5db4-461c-a3f8-c590a7238e7a")
+		)
+		(pin "B7"
+			(uuid "2d1ab915-fd19-485a-b15e-d1a116d8fb07")
+		)
+		(pin "A16"
+			(uuid "0e25184e-2b16-4b6a-93a5-faa1df54b887")
+		)
+		(pin "B16"
+			(uuid "e51b4f66-cb13-4cad-9d18-9be60303ef37")
 		)
 		(instances
 			(project "Backplane"
 				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 144.78 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18cd66a7-c8bf-4d8e-8db1-200c7bc24a7b")
-		(property "Reference" "#PWR15"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 147.955 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "757eb54b-6fb0-4cc0-9818-f28dee137da2")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR15")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3940,73 +3826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 52.07 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e56549e-0f66-45ba-9a02-fdab841e6cbc")
-		(property "Reference" "#PWR3"
-			(at 58.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 55.245 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48f1bfad-4732-4eb5-bebe-243725e95137")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 167.64 41.91 0)
 		(unit 1)
@@ -4071,6 +3890,243 @@
 			(project "Backplane"
 				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EdgeConnnectorV2:Stack Female Edge Connector")
+		(at 83.82 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25b4d889-640c-40c3-af73-5e4f11298b31")
+		(property "Reference" "J5"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Edge Connector (SLOT 5)"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AMPHENOL_10018784-10210TLF"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-12-233.pdf"
+			(at 77.724 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
+			(at 86.614 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B3"
+			(uuid "38a366bf-ae92-4203-99e1-a52b40fe2233")
+		)
+		(pin "B9"
+			(uuid "8cdb939c-51ed-4441-9870-a292cf490607")
+		)
+		(pin "B11"
+			(uuid "e96d8997-8f19-442c-9f54-e4a170c45efd")
+		)
+		(pin "B1"
+			(uuid "b6f30761-060f-4d1c-a0d1-9f9e00b44f1c")
+		)
+		(pin "B5"
+			(uuid "a78dcc3c-c0e1-4212-bb4a-cc7879231b59")
+		)
+		(pin "A7"
+			(uuid "6d783c65-0fc8-467f-b75e-e75e2789095a")
+		)
+		(pin "A17"
+			(uuid "6b738af4-f1e3-4c74-b63f-8481c95ff5dc")
+		)
+		(pin "A2"
+			(uuid "75d359ff-417b-4a00-a721-5b23d4e20b8a")
+		)
+		(pin "B4"
+			(uuid "3042f2f6-3269-4d8a-b8b4-38a2759a7f94")
+		)
+		(pin "A3"
+			(uuid "401c0b13-a41a-4f6c-a728-7cfea0f2a9d6")
+		)
+		(pin "A9"
+			(uuid "db6384ee-90f7-4966-97c9-57af7d696919")
+		)
+		(pin "B8"
+			(uuid "ab9f0daa-e998-4e01-a16e-4c3f0bfe151f")
+		)
+		(pin "B10"
+			(uuid "e9e0e0d5-87f0-4be3-b4bc-3fce55251746")
+		)
+		(pin "A4"
+			(uuid "973fd5a7-ec7f-44c9-b544-3d5922d6b83c")
+		)
+		(pin "B6"
+			(uuid "112d6d7f-730d-4b08-8e5c-22207c800d33")
+		)
+		(pin "B15"
+			(uuid "800f4e5a-7bc0-4c4a-9285-4781ecf6c83c")
+		)
+		(pin "B14"
+			(uuid "0e52ba38-04a9-4b7c-b742-07fe22ae311a")
+		)
+		(pin "A8"
+			(uuid "95de4f9b-b92a-4879-be07-610e9b225c94")
+		)
+		(pin "B13"
+			(uuid "8aaead51-4452-45c2-941f-552743f344b3")
+		)
+		(pin "A12"
+			(uuid "73bf4bd6-b4ea-4d65-92c4-ab66233bced5")
+		)
+		(pin "A11"
+			(uuid "c2f86e3b-61a2-4965-8d27-f72875c4a841")
+		)
+		(pin "B18"
+			(uuid "3c6bc34c-e113-4805-8c62-d56f21284d2f")
+		)
+		(pin "A1"
+			(uuid "50329237-a855-4156-a669-7e806eb4d358")
+		)
+		(pin "A14"
+			(uuid "0f9abc0c-e038-4284-b832-dc1ab8df0bca")
+		)
+		(pin "B17"
+			(uuid "07a9c8cc-0727-445c-964a-2d0e4930d012")
+		)
+		(pin "A13"
+			(uuid "653190eb-8a5e-45bd-a117-e23ee20ee039")
+		)
+		(pin "A15"
+			(uuid "2d8bc369-fa26-4860-a1eb-78eb4553beb1")
+		)
+		(pin "B2"
+			(uuid "a02c1cc1-bc38-4eb7-b634-18e3f3b28d6c")
+		)
+		(pin "A10"
+			(uuid "d228521d-73ce-4ac2-8938-2c24f6f5f1f1")
+		)
+		(pin "A18"
+			(uuid "10aceafc-b29e-47a5-bfea-2cc8e933d755")
+		)
+		(pin "A6"
+			(uuid "aabdf327-1565-4321-bddf-c7b0e8ad8943")
+		)
+		(pin "A5"
+			(uuid "1eee857f-1243-45c2-8a52-5a9881e63a01")
+		)
+		(pin "B12"
+			(uuid "31cc3de2-17fb-4e08-9f45-19df4bd2632b")
+		)
+		(pin "B7"
+			(uuid "5a5d2459-f911-43b3-bf2b-cd6a0c9f9071")
+		)
+		(pin "A16"
+			(uuid "9acd87c1-9050-4add-8fc2-8420869af18f")
+		)
+		(pin "B16"
+			(uuid "f1149dbd-4bd5-43c4-8e3d-62b337b68df0")
+		)
+		(instances
+			(project "Backplane"
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 148.59 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "261d6425-0731-40b8-9a77-79f577b97ae2")
+		(property "Reference" "#PWR8"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 151.765 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23c9980c-4aa6-481e-af97-63107078e62b")
+		)
+		(instances
+			(project "Backplane"
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -4155,33 +4211,17 @@
 		)
 	)
 	(symbol
-		(lib_id "EdgeConnnectorV1.1:Stack Female Edge Connector")
-		(at 38.1 92.71 0)
+		(lib_id "power:GND2")
+		(at 97.79 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2bda27a3-7fe5-45c6-a538-4ce49a5a7649")
-		(property "Reference" "J4"
-			(at 38.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Edge Connector (SLOT 4)"
-			(at 38.1 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:AMPHENOL_10018784-10210TLF"
-			(at 38.1 115.57 0)
+		(uuid "29640a9d-7236-4d1a-87cf-e81e1226e6eb")
+		(property "Reference" "#PWR7"
+			(at 104.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,162 +4229,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-12-233.pdf"
-			(at 32.004 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
-			(at 43.18 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A18"
-			(uuid "735db6a1-4858-4506-8d5c-985dd9341711")
-		)
-		(pin "A5"
-			(uuid "8ce162c3-9f6f-48b7-9bc1-7ce77fded022")
-		)
-		(pin "B13"
-			(uuid "6fc2d982-2b61-4dcc-9ce3-5cfa62605469")
-		)
-		(pin "A7"
-			(uuid "a4279b31-0828-405f-969b-28c4f1b071c9")
-		)
-		(pin "B2"
-			(uuid "3da8155b-b56b-4204-bf7b-cfd9f4cda5c2")
-		)
-		(pin "A4"
-			(uuid "9458e6d5-c609-4227-91a5-d3823693d9bc")
-		)
-		(pin "B5"
-			(uuid "df06bf62-c983-4973-856f-c2e1869d555e")
-		)
-		(pin "A16"
-			(uuid "e13c4fd5-c1b5-46bb-9836-9dd6856e9025")
-		)
-		(pin "B10"
-			(uuid "1c4601ab-7a45-4026-9d5b-cbdcda019d55")
-		)
-		(pin "B16"
-			(uuid "db21ccbb-9e07-4fbc-b09d-d6383f967bc7")
-		)
-		(pin "B1"
-			(uuid "60699ae2-d9e4-4d88-a53b-28ce290c4eae")
-		)
-		(pin "B14"
-			(uuid "07b25135-9be6-4bfe-b66a-120e6eb525ae")
-		)
-		(pin "A2"
-			(uuid "26b95688-b774-4a94-b710-375c4aa7a022")
-		)
-		(pin "B17"
-			(uuid "893898b3-0927-4cbf-bff9-ce8f83975656")
-		)
-		(pin "B3"
-			(uuid "3bdcda53-e52f-4c3e-9c1e-a72b53fc2e97")
-		)
-		(pin "A3"
-			(uuid "501f5e6e-b4b7-44a5-b8e2-d8a278d495ed")
-		)
-		(pin "B4"
-			(uuid "90415282-a4b1-436b-b7d5-bdb27d70d2e9")
-		)
-		(pin "A6"
-			(uuid "435a4c31-41eb-42fa-b866-198369545bc8")
-		)
-		(pin "B18"
-			(uuid "fcdc6e3b-e9fb-4504-9aa5-33d29408eb07")
-		)
-		(pin "A9"
-			(uuid "6924f1ed-97fe-4823-bdcd-d89ed5226751")
-		)
-		(pin "B8"
-			(uuid "1ca7dbfb-0f5c-4294-a3ee-6b0370054722")
-		)
-		(pin "B11"
-			(uuid "c43259ee-7cf8-4acd-b9a3-015c01ba17d2")
-		)
-		(pin "B6"
-			(uuid "11e13adc-ccec-4557-8d45-874888bb233a")
-		)
-		(pin "A17"
-			(uuid "f39e090a-bf3c-4f34-85ca-0897f10dacd9")
-		)
-		(pin "B15"
-			(uuid "1117c24c-86c1-4876-b922-a620fa8c5ec5")
-		)
-		(pin "B12"
-			(uuid "57a5f804-c34a-40eb-83e0-2ea746106ddd")
-		)
-		(pin "A8"
-			(uuid "590458b4-bb64-4ff5-93e9-856796142bf5")
-		)
-		(pin "A13"
-			(uuid "2c94822d-9f2c-44b3-8879-f116e301731d")
-		)
-		(pin "B7"
-			(uuid "267bceac-0925-494c-921f-92328f73c960")
-		)
-		(pin "A15"
-			(uuid "22473c23-6c8a-4cf4-9aff-1eb05875946f")
-		)
-		(pin "B9"
-			(uuid "0b01df00-6b96-40e3-a2f4-5131aa9e7c5e")
-		)
-		(pin "A12"
-			(uuid "80b6ca18-007c-466b-99d1-4d3c320c23fd")
-		)
-		(pin "A11"
-			(uuid "f4f6b154-9e37-48b9-8fae-3faebfd3fac3")
-		)
-		(pin "A10"
-			(uuid "17384ffd-685e-49d5-bd65-b061790d41d9")
-		)
-		(pin "A1"
-			(uuid "adb26ff6-2a99-41e3-89ca-88898c3b9506")
-		)
-		(pin "A14"
-			(uuid "c3d49548-eb1b-43ed-96e3-9ff6429c0aaa")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 97.79 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c109b04-4bc5-4686-830d-4e22d1831401")
-		(property "Reference" "#PWR9"
-			(at 104.14 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 100.965 60.96 90)
+		(property "Value" "GND2"
+			(at 100.965 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 60.96 0)
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 60.96 0)
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 60.96 0)
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,12 +4266,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "52304db1-0f29-454c-9bb5-84159f36038b")
+			(uuid "f1322849-1000-4981-a053-5bec014ccfbf")
 		)
 		(instances
 			(project "Backplane"
 				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR9")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -4526,176 +4412,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EdgeConnnectorV1.1:Stack Female Edge Connector")
-		(at 38.1 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43176c80-8a60-42b7-ad1e-2631e2c9af60")
-		(property "Reference" "J1"
-			(at 38.1 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Edge Connector (SLOT 1)"
-			(at 38.1 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:AMPHENOL_10018784-10210TLF"
-			(at 38.1 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-12-233.pdf"
-			(at 32.004 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
-			(at 43.18 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A18"
-			(uuid "b4fb4a5f-6bb9-4830-ba22-5ed62c15105e")
-		)
-		(pin "A5"
-			(uuid "88a25e4a-feba-4917-a743-71d014893638")
-		)
-		(pin "B13"
-			(uuid "901b7bf7-e4a4-4f2e-8a3f-0f847be1810a")
-		)
-		(pin "A7"
-			(uuid "1c795983-d6a2-47ff-a8ed-a2c2a5715657")
-		)
-		(pin "B2"
-			(uuid "ef3bccb7-a044-43fd-88e0-c70fdb17857d")
-		)
-		(pin "A4"
-			(uuid "9d99822b-e08e-4ffb-b48a-1c56044e61e6")
-		)
-		(pin "B5"
-			(uuid "fc928d66-c2c5-4ab6-81f4-826879cbfd71")
-		)
-		(pin "A16"
-			(uuid "4e15e4c1-3015-4229-9c43-668051658e67")
-		)
-		(pin "B10"
-			(uuid "7d87d4b5-717a-4a30-9534-4b02610ef606")
-		)
-		(pin "B16"
-			(uuid "99618497-e936-47b0-a1ba-e8d9f0df8d0d")
-		)
-		(pin "B1"
-			(uuid "ac7d836d-1d89-4b0f-a591-2ce3a7c9fa30")
-		)
-		(pin "B14"
-			(uuid "52a45d72-1b93-48ec-9269-53b8d5cc97b3")
-		)
-		(pin "A2"
-			(uuid "0d506d07-6099-4fa3-b1f0-0c584ca006f9")
-		)
-		(pin "B17"
-			(uuid "5e72ac9f-8fed-4a19-8231-1f4315420d6a")
-		)
-		(pin "B3"
-			(uuid "9d1d20f3-b914-4fbf-8c45-c9d9eada2c39")
-		)
-		(pin "A3"
-			(uuid "9e29c9f9-2f3d-45e2-b5f1-a31ec57ca4e0")
-		)
-		(pin "B4"
-			(uuid "2fbda09b-e339-4830-917b-6c08eac13a05")
-		)
-		(pin "A6"
-			(uuid "9e5c6116-0978-40e6-aff2-edb915c13016")
-		)
-		(pin "B18"
-			(uuid "4880ef52-617f-4438-8855-f48d0df3cb31")
-		)
-		(pin "A9"
-			(uuid "5461624b-4668-4e27-adbd-c3ee660dcefa")
-		)
-		(pin "B8"
-			(uuid "bcaf2f07-5823-43ff-a6e6-a1710f9da83a")
-		)
-		(pin "B11"
-			(uuid "2bcfc8d0-7448-4b84-96b9-6e7691a2623f")
-		)
-		(pin "B6"
-			(uuid "9e0b14e0-7b27-41a9-9311-a3960dd4c7cc")
-		)
-		(pin "A17"
-			(uuid "b374d83b-66df-4dd5-8944-4bec87ce20b6")
-		)
-		(pin "B15"
-			(uuid "58c2ac43-4b84-4c45-8cab-31bf03040978")
-		)
-		(pin "B12"
-			(uuid "4cf245b8-040f-4a24-ac4b-1e72686f6cbb")
-		)
-		(pin "A8"
-			(uuid "3a66fb47-2893-40f3-9b5a-07648673406f")
-		)
-		(pin "A13"
-			(uuid "88c2884c-17ec-47ae-a553-38d97c24e6e8")
-		)
-		(pin "B7"
-			(uuid "514ce949-b011-4e2c-a931-dcf9ba2395f8")
-		)
-		(pin "A15"
-			(uuid "79d9f6ca-9b2a-4932-90d1-88969fdf63b2")
-		)
-		(pin "B9"
-			(uuid "7946842b-3ee9-433d-93b6-30de90c6d9d4")
-		)
-		(pin "A12"
-			(uuid "249da680-9c93-4ca2-b365-fd7764085d82")
-		)
-		(pin "A11"
-			(uuid "50e359cf-fd4c-43f7-819f-8b15687b04b8")
-		)
-		(pin "A10"
-			(uuid "44550c47-eb39-4d49-9802-3e76aaac83c2")
-		)
-		(pin "A1"
-			(uuid "ba812930-f5f9-490d-9dbb-6fbed5bebcd9")
-		)
-		(pin "A14"
-			(uuid "449333dc-d3e0-4d97-8872-1db57226dbf4")
-		)
-		(instances
-			(project ""
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 186.69 31.75 0)
 		(unit 1)
@@ -4760,73 +4476,6 @@
 			(project "Backplane"
 				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
 					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 52.07 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a35bd54-1706-4e48-8c73-7447caaa6835")
-		(property "Reference" "#PWR6"
-			(at 58.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 55.245 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4f77cfb-8ff8-4b8a-86e1-ba3a78a73ae9")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -4903,73 +4552,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 97.79 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62b24102-dd8d-4882-b4e6-598a62438cb9")
-		(property "Reference" "#PWR10"
-			(at 104.14 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 100.965 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88ce2a62-011f-4834-86f9-9d19df10cc05")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 76.2 154.94 0)
 		(unit 1)
@@ -4987,7 +4569,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Bridged"
+		(property "Value" "GND Bridge"
 			(at 76.2 151.13 0)
 			(effects
 				(font
@@ -5038,33 +4620,17 @@
 		)
 	)
 	(symbol
-		(lib_id "EdgeConnnectorV1.1:Stack Female Edge Connector")
-		(at 130.81 43.18 0)
+		(lib_id "power:GND1")
+		(at 97.79 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "71579989-f813-4de6-b0e8-17c6b4d43d77")
-		(property "Reference" "J3"
-			(at 130.81 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Edge Connector (SLOT 3)"
-			(at 130.81 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:AMPHENOL_10018784-10210TLF"
-			(at 130.81 66.04 0)
+		(uuid "71468eee-57f4-439c-aab4-38bd13c5db22")
+		(property "Reference" "#PWR6"
+			(at 104.14 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,162 +4638,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-12-233.pdf"
-			(at 124.714 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
-			(at 135.89 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A18"
-			(uuid "df71cac4-1555-46c8-be5d-d2774cc9c3e5")
-		)
-		(pin "A5"
-			(uuid "8d02931d-2db8-40d5-a0da-888cd3690e9c")
-		)
-		(pin "B13"
-			(uuid "0a4789c2-ef7d-4dcf-936b-c089378eddc4")
-		)
-		(pin "A7"
-			(uuid "de1606c9-c565-4b89-9816-673106d76037")
-		)
-		(pin "B2"
-			(uuid "bf90d8c1-5357-46a6-8073-b510204f37c3")
-		)
-		(pin "A4"
-			(uuid "38461608-9f1f-4a94-b27a-4079f955c321")
-		)
-		(pin "B5"
-			(uuid "21a12a68-6b63-4da4-8809-d3f03f991dd5")
-		)
-		(pin "A16"
-			(uuid "c9bfd5ed-0b71-490d-a9d2-52eb866e97e4")
-		)
-		(pin "B10"
-			(uuid "0a578846-91da-4531-8a48-35fa0e9e55fb")
-		)
-		(pin "B16"
-			(uuid "60b48b42-1e46-4823-9fc4-c90383eb8760")
-		)
-		(pin "B1"
-			(uuid "0e8dbee2-a371-422c-afaa-9320bac8537f")
-		)
-		(pin "B14"
-			(uuid "b3f21e71-8b6f-4e23-bfab-48f472de6889")
-		)
-		(pin "A2"
-			(uuid "b3d521c3-4a28-4875-87f3-b3725bb85bef")
-		)
-		(pin "B17"
-			(uuid "798aad0c-5740-43ee-99fd-c51c27c50ab5")
-		)
-		(pin "B3"
-			(uuid "ccc63325-a170-4ce1-801f-ce01cac06518")
-		)
-		(pin "A3"
-			(uuid "3e86e214-8c22-48ac-a8d0-4fce46fe8222")
-		)
-		(pin "B4"
-			(uuid "8b658150-1972-4509-bdfe-dd73084b751b")
-		)
-		(pin "A6"
-			(uuid "c9dc107d-077e-4d5a-ab43-78d8c3c9cb89")
-		)
-		(pin "B18"
-			(uuid "10dd2d73-1ca6-4a22-8f4f-421fc34e11eb")
-		)
-		(pin "A9"
-			(uuid "d62ba0ab-4bb9-455e-a689-17b9ba9664c4")
-		)
-		(pin "B8"
-			(uuid "be4f42de-034c-46c4-b6dc-1517e46284c1")
-		)
-		(pin "B11"
-			(uuid "78469712-0b88-4476-be7c-6d4fa5457042")
-		)
-		(pin "B6"
-			(uuid "ba056e1a-8a95-421d-8a95-1880a5d46fac")
-		)
-		(pin "A17"
-			(uuid "ed929723-99c4-46b5-a5d7-9474982fd0ea")
-		)
-		(pin "B15"
-			(uuid "4f81ff1b-5288-4768-ad61-5fddedfa5493")
-		)
-		(pin "B12"
-			(uuid "324e095d-f633-4102-8be4-0681a8bbbf80")
-		)
-		(pin "A8"
-			(uuid "b99c0313-bea0-4455-92aa-1cb87858e793")
-		)
-		(pin "A13"
-			(uuid "b0d5aaed-600b-4711-82b0-f905aeb199b7")
-		)
-		(pin "B7"
-			(uuid "4010cb74-b498-449d-b00e-82cb173cd43e")
-		)
-		(pin "A15"
-			(uuid "13296e9a-7c23-47fb-8854-4e697ba2ff7e")
-		)
-		(pin "B9"
-			(uuid "8af66510-3eb1-4ba6-972a-e3f6857428c3")
-		)
-		(pin "A12"
-			(uuid "60bfc541-32fc-4c3f-a0e2-5625abd88f39")
-		)
-		(pin "A11"
-			(uuid "519b796e-ba87-40f4-aca5-50bf2552e1c5")
-		)
-		(pin "A10"
-			(uuid "186bd7ce-ca18-44f6-a8e6-5f4035d62bd6")
-		)
-		(pin "A1"
-			(uuid "516d95f0-aebe-45b6-ad10-1b59fd216ed0")
-		)
-		(pin "A14"
-			(uuid "cb851431-a977-4a81-8062-0f09b3cd4bfd")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 52.07 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c2aaaec-ecbb-4b23-b77d-c12b946c0863")
-		(property "Reference" "#PWR5"
-			(at 58.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 55.245 100.33 90)
+		(property "Value" "GND1"
+			(at 100.965 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +4648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 100.33 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +4657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 100.33 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +4666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 100.33 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,12 +4675,211 @@
 			)
 		)
 		(pin "1"
-			(uuid "6235b632-0004-49c7-8d87-dbcc83b8f46d")
+			(uuid "9183273f-0abc-46d8-8e79-4fadbc797c0d")
 		)
 		(instances
 			(project "Backplane"
 				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR5")
+					(reference "#PWR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 137.16 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b009d4b-b73c-407b-9a21-94e2585f035f")
+		(property "Reference" "#PWR11"
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1910fdd-ea72-4a1d-867a-9ad4b4964e3e")
+		)
+		(instances
+			(project "Backplane"
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "#PWR11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 97.79 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84fcc266-824d-41d2-8a0b-b07404fc1cb7")
+		(property "Reference" "#PWR3"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 100.965 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f965ff3a-4e42-495c-af1b-9642d0373357")
+		)
+		(instances
+			(project "Backplane"
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 148.59 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8505591e-9559-4da1-93cf-6923df89a6b7")
+		(property "Reference" "#PWR9"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 151.765 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56c256ad-98ec-4236-832b-b851ea6df521")
+		)
+		(instances
+			(project "Backplane"
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -5413,84 +5024,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 97.79 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98bbfe35-11d4-4d5e-afbf-f86bb2549cf2")
-		(property "Reference" "#PWR11"
-			(at 104.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 100.965 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ac779b1-e1ee-4745-948e-f97e5a9b3c88")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
-		(at 52.07 85.09 90)
+		(at 52.07 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9c68b21f-4e9d-41ba-901d-66e592dacaef")
+		(uuid "979529dd-96b7-4929-b15c-b65567e0d0d6")
 		(property "Reference" "#PWR4"
-			(at 58.42 85.09 0)
+			(at 58.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5043,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 55.245 85.09 90)
+			(at 55.245 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +5052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 85.09 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,7 +5061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 85.09 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +5070,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 85.09 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,79 +5079,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "69162f74-598e-4d7a-b02e-f64516cd39b8")
+			(uuid "c84d0423-0793-4785-a4d0-624e67aedbe3")
 		)
 		(instances
 			(project "Backplane"
 				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
 					(reference "#PWR4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 97.79 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4e50a88-6c06-4117-9c72-c328b6ef628d")
-		(property "Reference" "#PWR12"
-			(at 104.14 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 100.965 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef08f05f-ebb2-4981-b7a1-9f5a2e17f411")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -5704,178 +5181,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EdgeConnnectorV1.1:Stack Female Edge Connector")
-		(at 83.82 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b64ce86e-fc75-420a-8cf9-ffb68c81f656")
-		(property "Reference" "J5"
-			(at 83.82 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Edge Connector (SLOT 5)"
-			(at 83.82 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:AMPHENOL_10018784-10210TLF"
-			(at 83.82 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-12-233.pdf"
-			(at 77.724 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
-			(at 88.9 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A18"
-			(uuid "3e44933c-b9d9-4617-82d6-38c8f5acfa9d")
-		)
-		(pin "A5"
-			(uuid "65f35aee-e323-4682-b8b3-3e7ce57f38d8")
-		)
-		(pin "B13"
-			(uuid "588c3071-a565-4745-825f-f55edc30b598")
-		)
-		(pin "A7"
-			(uuid "655cfc4c-23b9-4904-90f6-105fd0c80f6e")
-		)
-		(pin "B2"
-			(uuid "4d1051df-02e9-41b2-851b-e9b7561d2685")
-		)
-		(pin "A4"
-			(uuid "fdb789cd-1934-4e06-b6d8-d5795f51dca2")
-		)
-		(pin "B5"
-			(uuid "93ecfe04-150c-47bb-a22a-ef72f82f2af1")
-		)
-		(pin "A16"
-			(uuid "b54f5231-17f0-4c25-8140-1280a55dd5f7")
-		)
-		(pin "B10"
-			(uuid "826074a2-f92b-4183-861b-f767e44ec4e8")
-		)
-		(pin "B16"
-			(uuid "ccfd5371-ceca-4b84-85aa-ff1d1d353925")
-		)
-		(pin "B1"
-			(uuid "42af2941-950e-495d-8cf5-0baa0e97b196")
-		)
-		(pin "B14"
-			(uuid "92505999-4b1b-4666-a0c1-199803b62f25")
-		)
-		(pin "A2"
-			(uuid "fc5d5f47-765d-4689-bc46-6c1c6ec1fbed")
-		)
-		(pin "B17"
-			(uuid "fd5e7218-f602-4c52-b67a-1ad5202439ad")
-		)
-		(pin "B3"
-			(uuid "376ef5c4-36bf-4898-9f2e-83dd668a2c17")
-		)
-		(pin "A3"
-			(uuid "5ae75bf1-7ace-4e07-bb86-290a8e0ed95d")
-		)
-		(pin "B4"
-			(uuid "c8fdaed0-f5bf-44c3-a87c-a0bac382a129")
-		)
-		(pin "A6"
-			(uuid "cb134c34-8e97-45ed-b2f3-616c0b97587d")
-		)
-		(pin "B18"
-			(uuid "588adff6-a109-436e-937b-0ca4626f0bcf")
-		)
-		(pin "A9"
-			(uuid "2b3ba0c6-4398-4dec-a977-102e9f7770ec")
-		)
-		(pin "B8"
-			(uuid "c219ac71-077c-4ac5-8bde-3c8550ff081e")
-		)
-		(pin "B11"
-			(uuid "ea4fd436-b5f1-440d-90ea-e08b6192db1a")
-		)
-		(pin "B6"
-			(uuid "9244fcd6-d70e-4817-a761-d4792efb69a1")
-		)
-		(pin "A17"
-			(uuid "d055b5de-b23e-4b74-afbd-fe574eb66502")
-		)
-		(pin "B15"
-			(uuid "c779cc2c-e03d-4deb-b5eb-0bbc280793c7")
-		)
-		(pin "B12"
-			(uuid "67df0adb-b4d9-4461-870d-d38103c445af")
-		)
-		(pin "A8"
-			(uuid "1d5d630e-5aa3-426a-a467-94646c0dda6f")
-		)
-		(pin "A13"
-			(uuid "45caf06a-fb2f-4d5a-a783-321f53ec1b0d")
-		)
-		(pin "B7"
-			(uuid "cc31b298-6a72-4220-91c7-574573b2f70f")
-		)
-		(pin "A15"
-			(uuid "ff782bcc-13ab-4a33-a13d-3c1353cfb1e3")
-		)
-		(pin "B9"
-			(uuid "0f57e80f-5c96-4613-8529-9237e11582c9")
-		)
-		(pin "A12"
-			(uuid "1f4ea86d-856a-4df7-812a-17311a79e476")
-		)
-		(pin "A11"
-			(uuid "77ec794d-58a7-44d7-a73f-d738a8d6d9fb")
-		)
-		(pin "A10"
-			(uuid "112c15e2-3dab-4ba8-81f7-8cf8b1b562ed")
-		)
-		(pin "A1"
-			(uuid "2e4e545b-eebc-4c6c-9bac-2036686a811b")
-		)
-		(pin "A14"
-			(uuid "aaafc538-5955-4995-b69f-81c11085ae23")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND2")
-		(at 52.07 52.07 90)
+		(at 52.07 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5884,7 +5191,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9fabf36-d0d0-42c5-93b1-a1b2fbdf4617")
 		(property "Reference" "#PWR2"
-			(at 58.42 52.07 0)
+			(at 58.42 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +5200,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 55.245 52.07 90)
+			(at 55.245 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +5209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 52.07 0)
+			(at 52.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +5218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 52.07 0)
+			(at 52.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 52.07 0)
+			(at 52.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,6 +5242,243 @@
 			(project "Backplane"
 				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
 					(reference "#PWR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 97.79 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bba1cd4e-2c9c-4c8d-90b6-f11e4652466c")
+		(property "Reference" "#PWR10"
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 100.965 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2f4f199-2d06-4e56-8175-a8243c39b635")
+		)
+		(instances
+			(project "Backplane"
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "#PWR10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EdgeConnnectorV2:Stack Female Edge Connector")
+		(at 38.1 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bddefbc8-461f-489a-9101-1e88a2fd081a")
+		(property "Reference" "J4"
+			(at 38.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Edge Connector (SLOT 4)"
+			(at 38.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AMPHENOL_10018784-10210TLF"
+			(at 38.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-12-233.pdf"
+			(at 32.004 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
+			(at 40.894 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B3"
+			(uuid "14712cbc-079b-44f4-b186-fd28320aa405")
+		)
+		(pin "B9"
+			(uuid "a80e2752-7453-4b9a-9bb1-4372a7896c9b")
+		)
+		(pin "B11"
+			(uuid "ce9b94ec-1505-4991-a336-cbe16a031fde")
+		)
+		(pin "B1"
+			(uuid "40db7d7b-4c77-47cd-adc9-1be0eb5c0add")
+		)
+		(pin "B5"
+			(uuid "0fc3ca64-267b-415e-8329-d1ae7a90d76a")
+		)
+		(pin "A7"
+			(uuid "999b80bc-118d-426d-a951-3066d6e01d1f")
+		)
+		(pin "A17"
+			(uuid "f75a54c5-f7de-4fce-9a7f-6f5397ac8e10")
+		)
+		(pin "A2"
+			(uuid "baf4003b-4fe7-4c27-ad68-d6e7c2dfaf01")
+		)
+		(pin "B4"
+			(uuid "0586f4fe-d03c-4d3e-a808-62b543c4f3c1")
+		)
+		(pin "A3"
+			(uuid "7d4034b3-8b86-4105-bebd-9ec40d41d62e")
+		)
+		(pin "A9"
+			(uuid "35107956-6898-4ad0-a2cf-e41eb76ff728")
+		)
+		(pin "B8"
+			(uuid "3f30b398-975e-42d2-ab83-59c7ab327a07")
+		)
+		(pin "B10"
+			(uuid "d8cca65a-e125-4378-8696-3624b8c599d7")
+		)
+		(pin "A4"
+			(uuid "b397cbdc-cca6-49cf-b545-3c70d708bb86")
+		)
+		(pin "B6"
+			(uuid "0ed90fac-ff27-4627-8805-bd156980c4b0")
+		)
+		(pin "B15"
+			(uuid "2fff991b-73b4-4ccc-bc9b-2f4bfaf1b784")
+		)
+		(pin "B14"
+			(uuid "f52be1ca-a7e2-46d7-8325-9bf8b1cb26cb")
+		)
+		(pin "A8"
+			(uuid "4219296f-24ca-4054-aede-43766605de1b")
+		)
+		(pin "B13"
+			(uuid "ced86bda-a781-44f5-816f-f2b314e7d354")
+		)
+		(pin "A12"
+			(uuid "17067dab-9b6d-4e0c-8475-611de4aa0786")
+		)
+		(pin "A11"
+			(uuid "5cc46868-e761-4dc6-87e6-622eb50bc505")
+		)
+		(pin "B18"
+			(uuid "9af2ab89-63ad-40fe-af54-74616e39d49e")
+		)
+		(pin "A1"
+			(uuid "a4460b05-e6e5-45af-9b38-600766214ecc")
+		)
+		(pin "A14"
+			(uuid "98d6508e-88d7-45a2-9432-5247072068a3")
+		)
+		(pin "B17"
+			(uuid "c32ed7b4-56b9-46a9-bae7-227b3198cadc")
+		)
+		(pin "A13"
+			(uuid "ef13f0ea-31f0-4059-ab58-3451a0340b05")
+		)
+		(pin "A15"
+			(uuid "e6309bb1-ef16-4698-a2b0-8ca565e00997")
+		)
+		(pin "B2"
+			(uuid "af5e6b08-4058-4a76-a631-9db1a7901115")
+		)
+		(pin "A10"
+			(uuid "1d4c09e0-5cb7-4f60-8a11-ed2e03d309cd")
+		)
+		(pin "A18"
+			(uuid "323dda8f-2c3b-4c06-9922-47ae90dd98fe")
+		)
+		(pin "A6"
+			(uuid "c546b245-d331-4ed8-b0ec-804830a77a15")
+		)
+		(pin "A5"
+			(uuid "0a7a6d14-3186-4b54-96aa-a15222e84138")
+		)
+		(pin "B12"
+			(uuid "ae8d1849-f9b0-4643-a9de-04bb0a83c624")
+		)
+		(pin "B7"
+			(uuid "e062e72e-c41a-4f5b-8113-1d86948d05de")
+		)
+		(pin "A16"
+			(uuid "302ca99e-d3c9-476e-a6ba-b443cf1f12e9")
+		)
+		(pin "B16"
+			(uuid "2bd79dad-589d-441a-8aa8-ca308538d10b")
+		)
+		(instances
+			(project "Backplane"
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6019,6 +5563,480 @@
 		)
 	)
 	(symbol
+		(lib_id "EdgeConnnectorV2:Stack Female Edge Connector")
+		(at 134.62 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c35648b1-df91-4b13-8554-74bfc4d2812b")
+		(property "Reference" "J3"
+			(at 134.62 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Edge Connector (SLOT 3)"
+			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AMPHENOL_10018784-10210TLF"
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-12-233.pdf"
+			(at 128.524 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
+			(at 137.414 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B3"
+			(uuid "f75325b8-4b12-40ca-9d10-3866988245a2")
+		)
+		(pin "B9"
+			(uuid "08b20652-5787-4276-984f-d346f0149ab2")
+		)
+		(pin "B11"
+			(uuid "df65592d-0ba1-4ae0-bb46-dc48297622db")
+		)
+		(pin "B1"
+			(uuid "c2f666a3-7957-4c76-bdd5-a2d9b3faa298")
+		)
+		(pin "B5"
+			(uuid "3d024f9e-2a3b-4b61-956a-c94a0adfa926")
+		)
+		(pin "A7"
+			(uuid "2b3f61b9-11b9-4389-ac2d-6de260b10497")
+		)
+		(pin "A17"
+			(uuid "d054ae8b-d02a-49bc-8abd-f46acaa94e9f")
+		)
+		(pin "A2"
+			(uuid "d21105ff-28d3-424f-9a79-e3202f6a6bce")
+		)
+		(pin "B4"
+			(uuid "d65f72b1-90fd-4abf-bc35-3fc3d25b069f")
+		)
+		(pin "A3"
+			(uuid "724a6ee1-0130-4b4c-a59f-8bfc9bb8c542")
+		)
+		(pin "A9"
+			(uuid "2e5db3a1-7f61-4cee-b079-cbf300e06db4")
+		)
+		(pin "B8"
+			(uuid "6dd62c13-911b-4756-bb89-d39e75ee6449")
+		)
+		(pin "B10"
+			(uuid "143d08de-bb25-485e-9a27-774b008f35c7")
+		)
+		(pin "A4"
+			(uuid "7d8922a0-2ebc-4f1b-a0e4-d47397d8f0d2")
+		)
+		(pin "B6"
+			(uuid "d0469b60-fc7b-4c11-aaf0-03be5688ee68")
+		)
+		(pin "B15"
+			(uuid "5fa7b13b-e869-4b0a-a7b3-415cee9ca3b9")
+		)
+		(pin "B14"
+			(uuid "aad01630-92bd-4a4d-a672-0b9df08012b1")
+		)
+		(pin "A8"
+			(uuid "11d609b0-81d6-4390-a460-2b1b760a1351")
+		)
+		(pin "B13"
+			(uuid "20e8ac65-545a-4211-bf0e-5b4fcbd96a81")
+		)
+		(pin "A12"
+			(uuid "80b986e2-e6ba-46a3-bb33-6c7772319e88")
+		)
+		(pin "A11"
+			(uuid "85a99302-3133-44b4-9e44-21f75e74fb70")
+		)
+		(pin "B18"
+			(uuid "36ae6211-2763-4c32-9c41-98737f199b19")
+		)
+		(pin "A1"
+			(uuid "1b4187d9-7e5c-4126-a672-d9966bc2ebb9")
+		)
+		(pin "A14"
+			(uuid "5b06503c-6101-4045-b13d-436f5af792f9")
+		)
+		(pin "B17"
+			(uuid "2c2fc6cc-6840-4fad-8eb2-a8eff2c947e4")
+		)
+		(pin "A13"
+			(uuid "5b8ab143-850d-47b3-8df4-3156d4800bcf")
+		)
+		(pin "A15"
+			(uuid "b5dfb6f1-61d3-4748-a355-ee1fa42e46e9")
+		)
+		(pin "B2"
+			(uuid "9fc5fb2e-b6d9-4ea3-a9af-ef5fa6d329b1")
+		)
+		(pin "A10"
+			(uuid "811d03a6-d9a6-4280-b3ae-8598f50c34db")
+		)
+		(pin "A18"
+			(uuid "995a19a9-b4cb-4aed-9938-49e5d3bee3ad")
+		)
+		(pin "A6"
+			(uuid "a3e89b20-6c54-4050-917f-f5bbcc438f9f")
+		)
+		(pin "A5"
+			(uuid "b6cefc1a-f0f2-4d0a-8613-e603a6127bf3")
+		)
+		(pin "B12"
+			(uuid "b0cbe57d-0969-426e-9b25-cb975b676ec4")
+		)
+		(pin "B7"
+			(uuid "08675865-5d50-41e5-a6c0-3c14dcc0e438")
+		)
+		(pin "A16"
+			(uuid "2cd9d98c-95f1-4209-b322-85f954c0e523")
+		)
+		(pin "B16"
+			(uuid "621034a8-4728-43c8-a688-2093f9f63072")
+		)
+		(instances
+			(project "Backplane"
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 52.07 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c46261bc-54b8-48fd-9935-43f1ba55ad5e")
+		(property "Reference" "#PWR1"
+			(at 58.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 55.245 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cf46f31-614a-4bcc-bd56-2c7c1c09f06e")
+		)
+		(instances
+			(project "Backplane"
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 52.07 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3878c8a-0ad7-4b44-9972-bb33efb64cb1")
+		(property "Reference" "#PWR5"
+			(at 58.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 55.245 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecd84ed6-0bf7-4ece-8bb0-42e44cfe2b53")
+		)
+		(instances
+			(project "Backplane"
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "#PWR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EdgeConnnectorV2:Stack Female Edge Connector")
+		(at 38.1 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d57d4ffd-83d4-492f-a445-06f1ea503279")
+		(property "Reference" "J1"
+			(at 38.1 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Edge Connector (SLOT 1)"
+			(at 38.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:AMPHENOL_10018784-10210TLF"
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/gs-12-233.pdf"
+			(at 32.004 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "QRET SRAD Female Stack Edge Connector (PCIe x1 Connector). Generation 2"
+			(at 40.894 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B3"
+			(uuid "798a0747-1cef-49aa-adf4-3472f183e0a4")
+		)
+		(pin "B9"
+			(uuid "85a11f08-b1f0-4019-944e-c06869379b0e")
+		)
+		(pin "B11"
+			(uuid "dad23a02-342a-4f32-aef4-0f2803c26e86")
+		)
+		(pin "B1"
+			(uuid "a310882f-f425-49af-a31a-23161d3fc7f4")
+		)
+		(pin "B5"
+			(uuid "ca8d2071-109b-4d11-a7e4-a326056251ec")
+		)
+		(pin "A7"
+			(uuid "7db03e17-8e11-4d03-860f-50a9614102c7")
+		)
+		(pin "A17"
+			(uuid "6cfb1b30-8c0c-4dac-9995-cae459809450")
+		)
+		(pin "A2"
+			(uuid "d72953bf-19c1-4286-b2d1-0b8632062c1c")
+		)
+		(pin "B4"
+			(uuid "ca0f3556-3c69-43a5-9300-d99bbc4a6940")
+		)
+		(pin "A3"
+			(uuid "37fbf45f-527f-43ca-9350-7bc3add1605e")
+		)
+		(pin "A9"
+			(uuid "57aad06e-09e3-497c-bc53-02a84677969e")
+		)
+		(pin "B8"
+			(uuid "c26b1dc7-ee2d-43c2-bdf3-bd1912e9834f")
+		)
+		(pin "B10"
+			(uuid "8c123794-260f-48fd-81d1-2502cd554fed")
+		)
+		(pin "A4"
+			(uuid "b5501a20-f371-4fbb-9225-3110374f9d10")
+		)
+		(pin "B6"
+			(uuid "8232ff99-d5f9-4271-9730-4025eba8848b")
+		)
+		(pin "B15"
+			(uuid "9d498e80-1d28-4cb7-b7bb-b1ec294e0708")
+		)
+		(pin "B14"
+			(uuid "d1800909-4f04-41a1-b2d9-938ba3d91aea")
+		)
+		(pin "A8"
+			(uuid "43595fc0-df7c-4419-b440-64b02a8be4d9")
+		)
+		(pin "B13"
+			(uuid "5d4a8ca6-fdd4-43b1-adf5-b7dec2d2e1ba")
+		)
+		(pin "A12"
+			(uuid "4ce06bbf-66af-4cce-80e0-3dd2a027b6b8")
+		)
+		(pin "A11"
+			(uuid "ae243abf-6ee4-448d-8ed2-9bbed781b524")
+		)
+		(pin "B18"
+			(uuid "879eb5c9-4738-47be-90a3-fe65ecb3b2f2")
+		)
+		(pin "A1"
+			(uuid "9a4fc7fe-7d60-4f0b-ad99-4dec5480c650")
+		)
+		(pin "A14"
+			(uuid "0c824f13-9043-466c-9651-52f08b19a09f")
+		)
+		(pin "B17"
+			(uuid "a42938fd-5283-4baf-a5bf-701da598072f")
+		)
+		(pin "A13"
+			(uuid "5598a452-36b5-4be7-bc01-73b955312c91")
+		)
+		(pin "A15"
+			(uuid "daf93334-88b0-4196-bb6a-5d28e75cabd8")
+		)
+		(pin "B2"
+			(uuid "3fd64f26-7c83-4557-87be-8bcf4112cde6")
+		)
+		(pin "A10"
+			(uuid "be72c7e8-6c5e-446d-93a5-a92038337c22")
+		)
+		(pin "A18"
+			(uuid "600d7d38-a604-4725-acf7-db293b158659")
+		)
+		(pin "A6"
+			(uuid "18c29e29-4720-44e8-bd24-152b923cbc2d")
+		)
+		(pin "A5"
+			(uuid "2eeed75d-aa56-4a84-9fca-8c54866503f8")
+		)
+		(pin "B12"
+			(uuid "5f4f6412-2f23-42ae-b409-7331ea28ffb9")
+		)
+		(pin "B7"
+			(uuid "ad1306d5-18b9-4dfe-85d2-2ac1c4c1cd15")
+		)
+		(pin "A16"
+			(uuid "c9954595-9ecc-4500-8bd5-0e16c8a9abb9")
+		)
+		(pin "B16"
+			(uuid "6049358c-391b-4d08-ac73-d52e4b6595c3")
+		)
+		(instances
+			(project ""
+				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 76.2 144.78 0)
 		(unit 1)
@@ -6036,7 +6054,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Bridged"
+		(property "Value" "BATT Bridge"
 			(at 76.2 140.97 0)
 			(effects
 				(font
@@ -6289,207 +6307,6 @@
 			(project "Backplane"
 				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 97.79 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eca644ce-8a90-4ee1-af91-640ce1fb747c")
-		(property "Reference" "#PWR7"
-			(at 104.14 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 100.965 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a840e2f3-eca6-478a-8c39-115c7479eb93")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 144.78 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2d104f7-2d66-4d5a-b048-f2f252e5b944")
-		(property "Reference" "#PWR13"
-			(at 151.13 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 147.955 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15d053a0-f1af-47e6-8e82-7394faa6b910")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND2")
-		(at 97.79 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6364424-1bb2-4a58-963c-437c3364e9ea")
-		(property "Reference" "#PWR8"
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 100.965 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4047191-18be-48c2-95b1-636daff98e2a")
-		)
-		(instances
-			(project "Backplane"
-				(path "/d6cecfea-6157-498d-8796-49576704a9cc"
-					(reference "#PWR8")
 					(unit 1)
 				)
 			)
