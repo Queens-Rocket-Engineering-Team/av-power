@@ -5934,6 +5934,25 @@
 		)
 		(uuid "9cbd73e1-9af5-498e-8e93-9e270ee9feee")
 	)
+	(text_box "Equations:\nD = 1 - Vin/Vo\nT = 1/F\nIin = Vin/(R(1-D)^2)\ndetla_IL = 30% of IL\nL = VinDT/L\nLcrit = RT/2(1-D)^2D (when IL = 0)\nIL_max = Iin + 1/2(delta_IL)\ndelta_Vc = VoDT/RC\nID_avg = Iin(1-D)\nId_max = IL_max\nVc_max = Vo\nIc_rms = sqrt(DIin^2 + (1-D)(Iin - Io) \n\n\nConstants:\nF = 200KHz to 2.2MHz (Choose lowest frequency feasable, smaller F -> large L and C)\nVin_max = 12.6V\nVin_nominal = 11.1V\nVin_min = 7.5V\nVo = 23.76V ~ 24V\nPo_max = 10W\nPo_min = 1W\nD_max = 1 - 7.5/24\nD_min = 1 - 12.6/24\n\n\n\n"
+		(exclude_from_sim no)
+		(at 251.8918 169.164 0)
+		(size 58.166 61.7982)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cee6f456-0141-43f7-ae81-772523dc20e7")
+	)
 	(text_box "Constants:\nT = 1/1100000\nVin = 24V\nVout = 3.3V\nD = 3.3/24 = 0.1375\n\nP = 0.5W (estimate with one module powered)\nLcrit = 0.5*(1-0.1375)*(3.3^2/0.5)*(1/1100000) = 2.6uH\n\nPo = 3W (estimate of all 3.3V modules)\nLcrit = 0.5*(1-0.1375)*(3.3^2/3)*(1/1100000) = 0.43uH\n\ndelta_IL = 0.3*(3/3.3) = 0.273A\nL = 3.3*(1-0.1375)/(1100000*0.273) = 9.5uH\nILmax = (3/3.3) + 0.5*0.273 = 1.05A\n\n\nChose 10uH Inductor, ILmax = 2.5\ndelta_IL = 3.3*(1-0.1375)/(1100000*10*10^-6) = 0.26A\ndelta_Vo = 2%*3.3 = 0.066V\nC = 0.26/(8*1100000*0.066) = 0.45uF"
 		(exclude_from_sim no)
 		(at -80.645 46.99 0)
@@ -6086,6 +6105,18 @@
 			(justify left bottom)
 		)
 		(uuid "65a00ef6-f82b-4b55-b0f0-b85cb5754361")
+	)
+	(text "Switch 2 500000 Hz system!! (less switching loss)\noriginally designed for component footprint\nNow design for increase efficient!!"
+		(exclude_from_sim no)
+		(at -48.26 2.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6a864607-4831-4c90-8d6e-c8fcc0a8341a")
 	)
 	(text "Battery Power Connectors (with RPP)"
 		(exclude_from_sim no)
