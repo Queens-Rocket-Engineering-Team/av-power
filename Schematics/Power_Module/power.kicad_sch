@@ -5875,7 +5875,7 @@
 		)
 		(uuid d5327b74-5675-4117-b719-94f0403f5c56)
 	)
-	(text_box "Constants:\nT = 1/1100000\nVin = 24V\nVout = 5\nD = 5/24\n\nP = 0.2W\nLcrit = 0.5(1-.2083)(5^2/0.2)*(1/1100000) = 45uH\n\nP=1W (typical with RF transmition)\nLcrit = 0.5(1-.2083)(5^2/1)*(1/1100000) = 9uH\ndelta IL = 0.3(1/5) = 0.06A\nL = 5(1-0.2083)(1/1100000)/(0.08) = 60uH\nILmax = (1/5) + 0.5*(0.06) = 0.23A\n\nChose Inductor 68uH, ILmax = 1A\ndelta_IL = 5(1-0.2083)/(1100000*68*10^-6) = 0.053A\ndelta_Vo = 2%*5 = 0.1V\nC = 0.053/(8*1100000*0.1) = 0.06uF"
+	(text_box "Constants:\nT = 1/500000\nVin = 24V\nVout = 5\nD = 5/24\n\nP = 0.2W\nLcrit = 0.5(1-0.2083)(5^2/0.2)*(1/500000) = 99uH\n\nP=1W (typical with RF transmition)\nLcrit = 0.5(1-0.2083)(5^2/1)*(1/500000) = 20uH\n\ndelta IL = 0.3(1/5) = 0.06A\nL = 5(1-0.2083)(1/500000)/(0.06) = 132uH\nILmax = (1/5) + 0.5*(0.06) = 0.23A\n\nChose Inductor 130uH, ILmax = 1A\ndelta_IL = 5(1-0.2083)/(500000*130*10^-6) = 0.061A\ndelta_Vo = 2%*5 = 0.1V\nC = 0.061/(8*500000*0.1) = 0.15uF"
 		(exclude_from_sim no)
 		(at -80.645 93.345 0)
 		(size 55.88 45.085)
@@ -5953,10 +5953,10 @@
 		)
 		(uuid "cee6f456-0141-43f7-ae81-772523dc20e7")
 	)
-	(text_box "Constants:\nT = 1/1100000\nVin = 24V\nVout = 3.3V\nD = 3.3/24 = 0.1375\n\nP = 0.5W (estimate with one module powered)\nLcrit = 0.5*(1-0.1375)*(3.3^2/0.5)*(1/1100000) = 2.6uH\n\nPo = 3W (estimate of all 3.3V modules)\nLcrit = 0.5*(1-0.1375)*(3.3^2/3)*(1/1100000) = 0.43uH\n\ndelta_IL = 0.3*(3/3.3) = 0.273A\nL = 3.3*(1-0.1375)/(1100000*0.273) = 9.5uH\nILmax = (3/3.3) + 0.5*0.273 = 1.05A\n\n\nChose 10uH Inductor, ILmax = 2.5\ndelta_IL = 3.3*(1-0.1375)/(1100000*10*10^-6) = 0.26A\ndelta_Vo = 2%*3.3 = 0.066V\nC = 0.26/(8*1100000*0.066) = 0.45uF"
+	(text_box "Constants:\nT = 1/500000\nVin = 24V\nVout = 3.3V\nD = 3.3/24 = 0.1375\n\nP = 0.5W (estimate with one module powered)\nLcrit = 0.5*(1-0.1375)*(3.3^2/0.5)*(1/500000) = 18.79uH\n\nPo = 3W (estimate of all 3.3V modules)\nLcrit = 0.5*(1-0.1375)*(3.3^2/3)*(1/500000) = 3.13uH\n\ndelta_IL = 0.3*(3/3.3) = 0.273A\nL = 3.3*(1-0.1375)/(500000*0.273) = 20.85uH\nILmax = (3/3.3) + 0.5*0.273 = 1.05A\n\n\nChose 22uH Inductor, ILmax = 2.2 \ndelta_IL = 3.3*(1-0.1375)/(500000*22*10^-6) = 0.26A\ndelta_Vo = 2%*3.3 = 0.066V\nC = 0.26/(8*500000*0.066) = 0.98uF"
 		(exclude_from_sim no)
-		(at -80.645 46.99 0)
-		(size 60.325 44.45)
+		(at -81.28 46.99 0)
+		(size 62.23 44.45)
 		(stroke
 			(width 0)
 			(type default)
@@ -6106,7 +6106,7 @@
 		)
 		(uuid "65a00ef6-f82b-4b55-b0f0-b85cb5754361")
 	)
-	(text "Switch 2 500000 Hz system!! (less switching loss)\noriginally designed for component footprint\nNow design for increase efficient!!"
+	(text "Switched to a 500 000 Hz system for increase in efficiency."
 		(exclude_from_sim no)
 		(at -48.26 2.54 0)
 		(effects
