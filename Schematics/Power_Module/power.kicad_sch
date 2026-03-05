@@ -12624,7 +12624,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "22uH"
 			(at 88.9 28.2546 90)
 			(effects
 				(font
@@ -12641,7 +12641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/inductor_vls5045ex-h"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/610/NR8040T220M_SS.pdf"
 			(at 88.9 30.48 0)
 			(effects
 				(font
@@ -12659,7 +12659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-181622-1-ND"
+		(property "Digikey" "587-2002-2-ND"
 			(at 88.9 30.48 90)
 			(effects
 				(font
