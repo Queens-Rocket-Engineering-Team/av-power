@@ -9746,7 +9746,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.868 133.35 90)
 			(effects
 				(font
@@ -9773,7 +9773,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C11702"
+		(property "JLCPCB" "C21190"
 			(at 85.09 133.35 0)
 			(effects
 				(font
@@ -9834,7 +9834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/flashmodule_W25Q128JV-DTR_DS .pdf"
 			(at 262.89 90.17 0)
 			(effects
 				(font
@@ -10959,7 +10959,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C8734"
+		(property "JLCPCB" "C8304"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -12827,7 +12827,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C31850"
 			(at 68.58 146.05 0)
 			(effects
 				(font
@@ -13507,7 +13507,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25819 "
 			(at 68.58 153.67 0)
 			(effects
 				(font

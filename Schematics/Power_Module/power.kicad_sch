@@ -1516,6 +1516,283 @@
 				)
 			)
 		)
+		(symbol "Diode:BZV55C12"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZV55C12"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_MiniMELF"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12V, 500mW, 5%, Zener diode, MiniMELF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*MiniMELF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BZV55C12_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZV55C12_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:SMAJ30A"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ30A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ30A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ30A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Power_Management:LM74700"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2612,301 +2889,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:AO3400A"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3400A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO3400A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "AO3400A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_FET:IRF7404"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3292,6 +3274,688 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:STS2DNE60"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "STS2DNE60"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/CD00001537.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "2A Id, 60V Vds, Dual N-Channel MOSFET, 180mOhm Ron, SO-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Dual N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "STS2DNE60_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "STS2DNE60_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STS2DNE60_2_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:TSM2301ACX"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TSM2301ACX"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-2.8A Id, -20V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TSM2301ACX_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "TSM2301ACX_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -3510,12 +4174,6 @@
 		(uuid "05bade92-6e7d-4044-81a6-710c9132fe0b")
 	)
 	(junction
-		(at 49.53 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "074956de-245b-4ca4-9fa0-5be1edc6bfab")
-	)
-	(junction
 		(at 191.77 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3588,6 +4246,12 @@
 		(uuid "306b7e06-0be9-4ed3-8e43-9b32dcd50359")
 	)
 	(junction
+		(at 64.77 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "344de60f-2ee8-436c-bb64-ebd44bc184e7")
+	)
+	(junction
 		(at 160.02 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3628,6 +4292,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c232134-0a8c-4917-8cce-ced9f8b8b2c9")
+	)
+	(junction
+		(at 64.77 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e3afa3e-6a57-4593-8dc9-5ed2a0d54861")
 	)
 	(junction
 		(at 173.99 182.88)
@@ -3684,10 +4354,10 @@
 		(uuid "761dc19b-435c-42c3-abd6-502a2d11459d")
 	)
 	(junction
-		(at 44.45 194.31)
+		(at 69.85 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77e3eaba-65f5-41f3-81f2-611603bc5a4c")
+		(uuid "7e864fdf-6672-4e79-ae69-86591ff9b5da")
 	)
 	(junction
 		(at 191.77 234.95)
@@ -3730,6 +4400,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ef19ac-4431-49d5-ab5b-eeba927e2e2d")
+	)
+	(junction
+		(at 50.8 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89e13b95-1856-41f8-8fa3-b5739b0889b4")
 	)
 	(junction
 		(at 104.14 76.2)
@@ -3820,6 +4496,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8258b1b-38ae-49e8-aece-ab370a4c69ae")
+	)
+	(junction
+		(at 50.8 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb710b39-ec78-4b80-83eb-5cc4a7267d1d")
 	)
 	(junction
 		(at 92.71 30.48)
@@ -4025,7 +4707,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 181.61) (xy 64.77 181.61)
+			(xy 69.85 181.61) (xy 77.47 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4092,6 +4774,16 @@
 			(type default)
 		)
 		(uuid "15b3b806-9047-4b35-8902-26c3e6f99ec8")
+	)
+	(wire
+		(pts
+			(xy 142.24 240.03) (xy 161.29 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1747ae40-8d45-4072-89f1-d5520fe80796")
 	)
 	(wire
 		(pts
@@ -4425,6 +5117,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 181.61) (xy 50.8 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46407f16-6d54-4746-93bc-f598f786f5f0")
+	)
+	(wire
+		(pts
 			(xy 106.68 30.48) (xy 107.95 30.48)
 		)
 		(stroke
@@ -4485,16 +5187,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 189.23) (xy 49.53 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ffce0d2-73de-4c93-a61a-312f4f3348c2")
-	)
-	(wire
-		(pts
 			(xy 224.79 55.88) (xy 224.79 50.8)
 		)
 		(stroke
@@ -4545,6 +5237,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 189.23) (xy 64.77 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4b1db7-2a28-4786-bb80-f753831119f5")
+	)
+	(wire
+		(pts
 			(xy 173.99 71.12) (xy 173.99 68.58)
 		)
 		(stroke
@@ -4582,6 +5284,16 @@
 			(type default)
 		)
 		(uuid "60335359-70da-45df-9f12-612d8c59d32b")
+	)
+	(wire
+		(pts
+			(xy 50.8 181.61) (xy 44.45 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61553e40-5cc1-4830-989c-fe6ea5a7926a")
 	)
 	(wire
 		(pts
@@ -4642,6 +5354,16 @@
 			(type default)
 		)
 		(uuid "69e44898-e10e-4794-8958-bd802c491868")
+	)
+	(wire
+		(pts
+			(xy 44.45 196.85) (xy 44.45 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a08f54b-b9cd-4b0c-ac01-c4000414b94b")
 	)
 	(wire
 		(pts
@@ -4792,6 +5514,16 @@
 			(type default)
 		)
 		(uuid "72cb14bf-921a-4ebc-84b5-c28aa89d695a")
+	)
+	(wire
+		(pts
+			(xy 64.77 189.23) (xy 69.85 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7545be59-a864-4889-a8c7-4a3caaa5f3f0")
 	)
 	(wire
 		(pts
@@ -5305,6 +6037,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 196.85) (xy 64.77 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c118c603-65ce-4347-b06b-455496d543fb")
+	)
+	(wire
+		(pts
 			(xy 186.69 143.51) (xy 191.77 143.51)
 		)
 		(stroke
@@ -5322,16 +6064,6 @@
 			(type default)
 		)
 		(uuid "c3c23071-757b-4e64-a869-eb30aa60c5f4")
-	)
-	(wire
-		(pts
-			(xy 142.24 240.03) (xy 161.29 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5aea86e-739c-47d2-898a-30d480da5cf9")
 	)
 	(wire
 		(pts
@@ -5575,6 +6307,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 196.85) (xy 50.8 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de50db2a-4819-461c-ad3b-ecddbaf5dc6b")
+	)
+	(wire
+		(pts
 			(xy 186.69 167.64) (xy 186.69 165.1)
 		)
 		(stroke
@@ -5745,7 +6487,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 195.58) (xy 44.45 194.31)
+			(xy 50.8 199.39) (xy 50.8 196.85)
 		)
 		(stroke
 			(width 0)
@@ -5772,16 +6514,6 @@
 			(type default)
 		)
 		(uuid "fc398100-996d-4b0b-9c37-e4054f958f3f")
-	)
-	(wire
-		(pts
-			(xy 44.45 194.31) (xy 49.53 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdbe633a-860e-4268-ae95-c7238c0f50e1")
 	)
 	(wire
 		(pts
@@ -5817,7 +6549,7 @@
 	)
 	(rectangle
 		(start 13.97 171.45)
-		(end 80.645 199.39)
+		(end 89.7128 212.0392)
 		(stroke
 			(width 0)
 			(type default)
@@ -5889,7 +6621,7 @@
 	)
 	(rectangle
 		(start 125.73 15.24)
-		(end 200.025 83.185)
+		(end 200.025 108.0008)
 		(stroke
 			(width 0)
 			(type default)
@@ -5961,44 +6693,6 @@
 		)
 		(uuid "4dd546b2-5c00-4ef6-9e96-8472041f80a7")
 	)
-	(text_box "Probably a good idea to switch\nto higher rate N-Channels"
-		(exclude_from_sim no)
-		(at 124.5362 207.1116 0)
-		(size 35.6108 5.6642)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "70d19362-6d4f-4212-8eb6-2a0e038f9b44")
-	)
-	(text_box "I think we choose input capacitance\ndepending on mosfet gate capacitance\nCheck datasheets!"
-		(exclude_from_sim no)
-		(at 128.4224 255.6764 0)
-		(size 32.0548 13.5636)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "92d959ef-5fae-4e15-be8d-b00c3ed2828f")
-	)
 	(text_box "Buck Design Equations:\nD = Vo/Vin\n\nLcrit = 0.5*(1-D)*R*T\n\ndelta_IL = 30% of Io  (design choice)\n\nL = Vo*(1-D)*T / delta_IL\n\nILmax = Io + 0.5*delta_IL\n\ndelta_Vo = 2% of Vo  (design choice)\n\nC = delta_IL * T / (8 * delta_Vo)"
 		(exclude_from_sim no)
 		(at -80.645 8.255 0)
@@ -6020,7 +6714,7 @@
 		)
 		(uuid "9cbd73e1-9af5-498e-8e93-9e270ee9feee")
 	)
-	(text_box "Equations:\nD = 1 - Vin/Vo\nT = 1/F\nIin = Vin/(R(1-D)^2)\ndetla_IL = 30% of IL\nL = VinDT/L\nLcrit = RT/2(1-D)^2D (when IL = 0)\nIL_max = Iin + 1/2(delta_IL)\ndelta_Vc = VoDT/RC\nID_avg = Iin(1-D)\nId_max = IL_max\nVc_max = Vo\nIc_rms = sqrt(DIin^2 + (1-D)(Iin - Io) \n\n\nConstants:\nF = 200KHz to 2.2MHz (Choose lowest frequency feasable, smaller F -> large L and C)\nVin_max = 12.6V\nVin_nominal = 11.1V\nVin_min = 7.5V\nVo = 23.76V ~ 24V\nPo_max = 10W\nPo_min = 1W\nD_max = 1 - 7.5/24\nD_min = 1 - 12.6/24\n\n\n\n"
+	(text_box "Equations:\nD = 1 - Vin/Vo\nT = 1/F\nIin = Vin/(R(1-D)^2)\ndetla_IL = 30% of IL\nL = VinDT/L\nLcrit = RT/2(1-D)^2D (when IL = 0)\nIL_max = Iin + 1/2(delta_IL)\ndelta_Vc = VoDT/RC\nID_avg = Iin(1-D)\nId_max = IL_max\nVc_max = Vo\nIc_rms = sqrt(DIin^2 + (1-D)(Iin - Io) \n\n\nConstants:\nF = 200KHz to 2.2MHz (Choose lowest frequency feasable, smaller F -> large L and C)\nVin_max = 12.6V\nVin_nominal = 11.1V\nVin_min = 7.5V\nVo = 23.76V ~ 24V\nPo_max = 10W\nIo_max = 500mA\nPo_min = 1W\nIo_min = 40mA\nD_max = 1 - 7.5/24\nD_min = 1 - 12.6/24\n\n\n\n"
 		(exclude_from_sim no)
 		(at 251.8918 169.164 0)
 		(size 58.166 61.7982)
@@ -6083,7 +6777,7 @@
 		)
 		(uuid "1a50f4f2-1b73-438c-9535-c404ad68be04")
 	)
-	(text "GSE Power Connectors (with RPP)"
+	(text "24V GSE Power Connectors (with Clamps + RPP)"
 		(exclude_from_sim no)
 		(at 15.24 173.99 0)
 		(effects
@@ -6323,15 +7017,36 @@
 		)
 		(uuid "d55207ad-a4b9-4c56-a010-7f1619f3b667")
 	)
-	(text "Add surge protection\n"
+	(text "Add 24V_GSE current and voltage sense!"
 		(exclude_from_sim no)
-		(at 64.77 176.53 0)
+		(at 147.32 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "e15e2231-c356-4a3c-8a7f-0d24c2ea31ce")
+		(uuid "db5e6d61-25f2-49f6-915c-a5426d1c2830")
+	)
+	(text " - TVS: clamps pos and neg rails (breakdown 31.1V)\n - P-MOSFET: RPP switch, VGS_max = +-20V\n - ZENER: 12V clamping VGS to -12V"
+		(exclude_from_sim no)
+		(at 16.51 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df39e27a-1f39-4ace-83c3-67f6835010da")
+	)
+	(text "Add 24V_PSU current and voltage sense!"
+		(exclude_from_sim no)
+		(at 147.32 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5b5b89b-6ea3-4a31-8238-15b3e2c4da38")
 	)
 	(text "Primary 5V Buck Regulator"
 		(exclude_from_sim no)
@@ -6722,7 +7437,7 @@
 	)
 	(global_label "24V_GSE"
 		(shape output)
-		(at 64.77 181.61 0)
+		(at 77.47 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6732,7 +7447,7 @@
 		)
 		(uuid "95326d44-23b3-43f1-bd62-f4f029e34f69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.8589 181.61 0)
+			(at 88.5589 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,6 +7740,182 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ30A")
+		(at 50.8 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "026df88e-8187-43f4-bfcb-7e441a5285f4")
+		(property "Reference" "D6"
+			(at 53.34 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ30A"
+			(at 53.34 194.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 55.88 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/TVS_SMAJ30A.pdf"
+			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
+			(at 50.8 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C113965"
+			(at 50.8 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ae26278-08ba-4fc5-9357-b4ba9a2c1c23")
+		)
+		(pin "2"
+			(uuid "1bfcefc3-b123-4ec9-b5f0-a8d294db668b")
+		)
+		(instances
+			(project "Power_Module"
+				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:STS2DNE60")
+		(at 184.15 232.41 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03ca4353-76ae-48b6-8662-97cdff7bb38c")
+		(property "Reference" "Q5"
+			(at 179.07 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMN6040SSD-13"
+			(at 184.15 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 182.245 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/mosfet_DMN6040SSD.pdf"
+			(at 180.34 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1.287nF 1.3W 2 N-Channel 22.4nC@10V 3V 40mΩ@10V 44pF 5A 60V SO-8 MOSFETs ROHS"
+			(at 184.15 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C154876"
+			(at 184.15 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9f2a054e-a5cc-4ad3-a470-d88da2fd7e32")
+		)
+		(pin "4"
+			(uuid "91626c1f-5f77-4005-8555-71c46407fd1c")
+		)
+		(pin "6"
+			(uuid "b36f300f-e60d-4ee0-a6ae-5acddf2b3f1d")
+		)
+		(pin "5"
+			(uuid "13d423ee-ba80-42a0-8baf-16df4fcdf980")
+		)
+		(pin "8"
+			(uuid "9b4ebc2d-279b-4b03-9ced-c1ad1d9ea6fc")
+		)
+		(pin "2"
+			(uuid "9fe8c532-9d2f-4254-a029-b4dae4d00171")
+		)
+		(pin "1"
+			(uuid "483e3327-9c74-4655-ac39-ce18f68d59b0")
+		)
+		(pin "7"
+			(uuid "f1c89026-e74b-4810-a21f-92484f6e39e3")
+		)
+		(instances
+			(project ""
+				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
+					(reference "Q5")
+					(unit 2)
+				)
 			)
 		)
 	)
@@ -7401,79 +8292,6 @@
 			(project "Power_Module"
 				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 184.15 232.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e6cbe97-c8c0-4157-acba-c6460b1fdb71")
-		(property "Reference" "Q4"
-			(at 177.8 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 176.53 233.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 182.245 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 180.34 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 184.15 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d822da0-e7be-4df5-bfee-5ffe25042e33")
-		)
-		(pin "2"
-			(uuid "6c73b6a6-dc2c-4a1c-972c-22afd9e7fa00")
-		)
-		(pin "3"
-			(uuid "05661404-14ba-49a3-81aa-ca5dd1d1f18e")
-		)
-		(instances
-			(project "Power_Module"
-				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8958,25 +9776,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 184.15 242.57 270)
-		(mirror x)
+		(lib_id "Transistor_FET:TSM2301ACX")
+		(at 64.77 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "460262b2-c1da-4b1f-a8e4-d12243d095a5")
+		(uuid "4630d5e9-3b84-4444-8f99-68b3e4e9b003")
 		(property "Reference" "Q3"
-			(at 189.23 241.3 90)
+			(at 64.77 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AO3400A"
-			(at 190.5 243.84 90)
+		(property "Value" "TSM2309CX"
+			(at 64.77 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +9801,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 182.245 237.49 0)
+			(at 66.675 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8994,8 +9811,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 180.34 237.49 0)
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/mosfet_TSM2309CX.pdf"
+			(at 68.58 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,8 +9821,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 184.15 242.57 0)
+		(property "Description" "-50℃~+150℃ 1 P-Channel 1.56W 2.5V 20pF 240mΩ@4.5V 3.1A 35pF 425pF 60V 8.2nC@10V P-Channel SOT-23 MOSFETs ROHS"
+			(at 64.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2977534"
+			(at 64.77 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9014,116 +9840,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d64c75b-7974-4509-9ad7-363ccc4d4a3e")
-		)
-		(pin "2"
-			(uuid "fd1b2074-93c1-4554-bda9-7d18b0038e2f")
+			(uuid "db61cd38-7c2b-42f7-ad02-f5cea4992aee")
 		)
 		(pin "3"
-			(uuid "d398eb87-aea4-433a-98ca-85fa9b9bf318")
+			(uuid "364ad10f-ac63-4e26-afa5-a558962f12e2")
+		)
+		(pin "2"
+			(uuid "27870d39-5b7e-4a6e-b0a3-7c404261c011")
 		)
 		(instances
 			(project ""
 				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRF7404")
-		(at 49.53 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "480030bb-1506-412b-a13a-2c1c2f38a9f8")
-		(property "Reference" "Q2"
-			(at 49.53 175.5607 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO4447A"
-			(at 49.53 177.9849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 51.435 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/AO4447A.pdf"
-			(at 49.53 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C125867"
-			(at 49.53 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12171680-4ad2-4b56-9015-89ff2e66e02d")
-		)
-		(pin "2"
-			(uuid "2994a9d5-859a-4c25-b6ba-d30cec224a95")
-		)
-		(pin "3"
-			(uuid "3c9c77cc-3e20-4149-8008-71250a8bdf8c")
-		)
-		(pin "4"
-			(uuid "b69caccd-9fc6-4357-9135-b9e80e9a9cd6")
-		)
-		(pin "5"
-			(uuid "e4efe08d-aeb3-4154-9209-56b17b8b4e9e")
-		)
-		(pin "6"
-			(uuid "467ddc75-ea4f-451f-86de-63bdcb8905e0")
-		)
-		(pin "7"
-			(uuid "7b383a14-53e9-47d6-8c09-44075e3b47be")
-		)
-		(pin "8"
-			(uuid "fc86a9b6-e5ac-4fa5-97d1-231ef689dc01")
-		)
-		(instances
-			(project "Power_Module"
-				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -10163,6 +10891,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ30A")
+		(at 50.8 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "629e7c50-3b24-4c4f-9deb-af3686fb0e8f")
+		(property "Reference" "D5"
+			(at 53.34 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ30A"
+			(at 53.34 186.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 45.72 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/TVS_SMAJ30A.pdf"
+			(at 50.8 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
+			(at 50.8 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C113965"
+			(at 50.8 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dc2b226-b5de-4987-b05d-0834e641791d")
+		)
+		(pin "2"
+			(uuid "fcd44af6-fd55-48c4-bd89-654fbf7bf1e0")
+		)
+		(instances
+			(project "Power_Module"
+				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 227.33 180)
 		(unit 1)
@@ -10450,7 +11257,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 49.53 189.23 270)
+		(at 64.77 196.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10459,25 +11266,25 @@
 		(fields_autoplaced yes)
 		(uuid "664c8a07-0e0a-413f-aae2-0d4a9f748334")
 		(property "Reference" "TP9"
-			(at 54.61 187.9599 90)
+			(at 67.31 198.8819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "GSE_GND1"
-			(at 54.61 190.4999 90)
+			(at 67.31 201.4219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 49.53 194.31 0)
+			(at 59.69 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10486,7 +11293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 194.31 0)
+			(at 59.69 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +11302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 189.23 0)
+			(at 64.77 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11693,6 +12500,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:STS2DNE60")
+		(at 184.15 242.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92d12eb8-7c03-4a66-bfb3-9b5bfaff0d02")
+		(property "Reference" "Q5"
+			(at 179.07 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMN6040SSD-13"
+			(at 184.15 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 182.245 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/mosfet_DMN6040SSD.pdf"
+			(at 180.34 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 1.287nF 1.3W 2 N-Channel 22.4nC@10V 3V 40mΩ@10V 44pF 5A 60V SO-8 MOSFETs ROHS"
+			(at 184.15 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C154876"
+			(at 184.15 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9f2a054e-a5cc-4ad3-a470-d88da2fd7e32")
+		)
+		(pin "4"
+			(uuid "91626c1f-5f77-4005-8555-71c46407fd1c")
+		)
+		(pin "6"
+			(uuid "b36f300f-e60d-4ee0-a6ae-5acddf2b3f1d")
+		)
+		(pin "5"
+			(uuid "13d423ee-ba80-42a0-8baf-16df4fcdf980")
+		)
+		(pin "8"
+			(uuid "9b4ebc2d-279b-4b03-9ced-c1ad1d9ea6fc")
+		)
+		(pin "2"
+			(uuid "9fe8c532-9d2f-4254-a029-b4dae4d00171")
+		)
+		(pin "1"
+			(uuid "483e3327-9c74-4655-ac39-ce18f68d59b0")
+		)
+		(pin "7"
+			(uuid "f1c89026-e74b-4810-a21f-92484f6e39e3")
+		)
+		(instances
+			(project ""
+				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 39.37 29.21 0)
 		(unit 1)
@@ -12159,7 +13064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.3952 173.99 0)
 			(effects
 				(font
@@ -12212,7 +13117,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 195.58 0)
+		(at 50.8 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12220,7 +13125,7 @@
 		(dnp no)
 		(uuid "9e3c4cf5-aa0f-492c-b306-5e41febf7bbf")
 		(property "Reference" "#PWR052"
-			(at 44.45 201.93 0)
+			(at 50.8 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12229,7 +13134,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 198.12 0)
+			(at 53.34 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12237,7 +13142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 195.58 0)
+			(at 50.8 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12246,7 +13151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 195.58 0)
+			(at 50.8 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12255,7 +13160,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 195.58 0)
+			(at 50.8 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12962,6 +13867,85 @@
 			(project "Power_Module"
 				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZV55C12")
+		(at 69.85 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b303876c-6da4-449b-91b2-b8507cc9e2b7")
+		(property "Reference" "D7"
+			(at 72.39 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZV55C12"
+			(at 72.39 186.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 65.405 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/zener_BZV55_SER.pdf"
+			(at 69.85 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12V, 500mW, 5%, Zener diode, MiniMELF"
+			(at 69.85 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C545360"
+			(at 69.85 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c50275e0-3c4e-4149-b67b-c57ae79919c7")
+		)
+		(pin "2"
+			(uuid "41788cde-f8a5-4be1-b411-3354e25ff43c")
+		)
+		(instances
+			(project ""
+				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13994,7 +14978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220K"
+		(property "Value" "220k"
 			(at 189.23 160.0199 0)
 			(effects
 				(font
@@ -14003,7 +14987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.912 158.75 90)
 			(effects
 				(font
@@ -14421,7 +15405,7 @@
 		(dnp no)
 		(uuid "e8168341-588a-45e7-ac8a-5a13c06162b9")
 		(property "Reference" "C42"
-			(at 154.94 242.57 0)
+			(at 163.83 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14430,7 +15414,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 154.94 245.11 0)
+			(at 163.83 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14508,7 +15492,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12K"
+		(property "Value" "12k"
 			(at 189.23 172.7199 0)
 			(effects
 				(font
@@ -14517,7 +15501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.912 171.45 90)
 			(effects
 				(font
