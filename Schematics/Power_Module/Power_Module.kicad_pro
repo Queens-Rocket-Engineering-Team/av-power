@@ -238,7 +238,60 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "layers": [
+          0,
+          31,
+          32,
+          33,
+          34,
+          35,
+          38,
+          39,
+          44,
+          46,
+          47
+        ],
+        "name": "back+front",
+        "renderLayers": [
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          133,
+          134,
+          135,
+          138,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161,
+          164,
+          165
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],
@@ -538,7 +591,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -550,13 +603,13 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -568,7 +621,7 @@
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -580,7 +633,7 @@
           "group_by": false,
           "label": "JLCPCB",
           "name": "JLCPCB",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -592,7 +645,7 @@
           "group_by": false,
           "label": "_Digikey",
           "name": "_Digikey",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
