@@ -5335,12 +5335,6 @@
 		(uuid "7a5c2b45-f52a-4d5e-b3d4-98f89f994216")
 	)
 	(junction
-		(at 83.82 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e19deef-524a-4f10-bf92-e5521576b557")
-	)
-	(junction
 		(at 113.03 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5369,12 +5363,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da4e4d74-6340-4a7d-a9fe-a72b3bd52fe9")
-	)
-	(junction
-		(at 83.82 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2e41236-25f3-496e-926a-13dbc876c332")
 	)
 	(junction
 		(at 113.03 30.48)
@@ -5598,16 +5586,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 30.48) (xy 92.71 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14674de3-d7e3-430b-995a-6ac01a7cd444")
-	)
-	(wire
-		(pts
 			(xy 252.73 98.425) (xy 252.73 95.25)
 		)
 		(stroke
@@ -5756,6 +5734,16 @@
 		)
 		(uuid "3784abd2-de05-4604-8844-83166b7029fe")
 	)
+	(wire
+		(pts
+			(xy 92.71 31.75) (xy 92.71 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a8d10f-5aed-4309-9347-3496f65ba98b")
+	)
 	(polyline
 		(pts
 			(xy 222.25 111.125) (xy 222.25 64.77)
@@ -5868,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 22.86) (xy 92.71 22.86)
+			(xy 80.01 22.86) (xy 92.71 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6268,16 +6256,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 22.86) (xy 83.82 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d1e8e6-52fa-4c2a-9e2a-b94e2add8948")
-	)
-	(wire
-		(pts
 			(xy 68.58 149.86) (xy 78.74 149.86)
 		)
 		(stroke
@@ -6285,6 +6263,16 @@
 			(type default)
 		)
 		(uuid "b6581605-a16c-42e7-a881-4ae7a44bbce8")
+	)
+	(wire
+		(pts
+			(xy 148.59 46.99) (xy 146.05 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17e873a-518b-4e12-9c2a-cc8bd25b28a6")
 	)
 	(wire
 		(pts
@@ -6600,25 +6588,6 @@
 		)
 		(uuid d8bedd78-4e43-42bc-b794-c8da7c8fd513)
 	)
-	(text_box " - Add GSE_SENSE and 24V_CURR_SENSE\n - Review COMP C and R\n - Review 24V current sensing"
-		(exclude_from_sim no)
-		(at 301.9806 87.0966 0)
-		(size 84.5312 15.0876)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d2f69694-c0d4-4d43-879e-200a602ab78f")
-	)
 	(text "STM32 Reset"
 		(exclude_from_sim no)
 		(at 15.24 82.55 0)
@@ -6778,6 +6747,17 @@
 			(justify left bottom)
 		)
 		(uuid "e52a3df5-f933-4d72-8591-1225cb9712e8")
+	)
+	(text "moved 10uF cap next \nto ideal diodes"
+		(exclude_from_sim no)
+		(at 71.12 26.67 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "f0f240a1-3595-47e1-8ee6-d0df6939813e")
 	)
 	(text "STM32 Boot Mode"
 		(exclude_from_sim no)
@@ -7568,7 +7548,7 @@
 	)
 	(global_label "3.3V_A_CURR_SENSE"
 		(shape input)
-		(at 146.05 46.99 0)
+		(at 148.59 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7578,7 +7558,7 @@
 		)
 		(uuid "965a30b7-a9d2-44d8-a973-99e8217434f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.327 46.99 0)
+			(at 170.867 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9892,84 +9872,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 83.82 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4bec3d93-aab3-4b2c-882b-dfcc5c5f3567")
-		(property "Reference" "C37"
-			(at 77.47 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 74.93 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 84.7852 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080340001.pdf"
-			(at 83.82 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "732-8411-1-ND"
-			(at 83.82 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d5abaaa-d200-4ab7-aacc-c073894d21d5")
-		)
-		(pin "2"
-			(uuid "2baf3b2d-228e-4dbe-9819-deffb9646b7d")
-		)
-		(instances
-			(project "Power_Module"
-				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/0d4d1294-ccf0-404c-9521-5e9addbc8fbf"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 33.02 101.6 0)
 		(unit 1)
@@ -11253,7 +11155,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 30.48 0)
+		(at 92.71 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11262,7 +11164,7 @@
 		(fields_autoplaced yes)
 		(uuid "79eae2b9-1c81-4322-a39d-3598c54f6505")
 		(property "Reference" "#PWR43"
-			(at 83.82 36.83 0)
+			(at 92.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11271,7 +11173,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 34.6131 0)
+			(at 92.71 35.8831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +11181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 30.48 0)
+			(at 92.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,7 +11190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 30.48 0)
+			(at 92.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11297,7 +11199,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 30.48 0)
+			(at 92.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
