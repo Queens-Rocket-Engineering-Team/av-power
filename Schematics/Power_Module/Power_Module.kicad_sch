@@ -13,7 +13,7 @@
 		(comment 4 "GRID = 0.635mm")
 	)
 	(lib_symbols)
-	(text_box "TODO\n - Add GSE_SENSE and 24V_CURR_SENSE\n - Review COMP C and R\n - Review 24V current sensing\n - find a few small decen size buck caps (https://www.digikey.ca/en/products/filter/aluminum-electrolytic-capacitors/w%C3%BCrth-elektronik/58?s=N4IgjCBcoCwGxVAYygMwIYBsDOBTANCAPZQDa4AzABwAMVIhYATEzRIzdQOwgC6hABwAuUEAGUhAJwCWAOwDmIAL6E4ATkQgUkDDgLEyIGDTUVTfQSMjipcxSpCsuG6FrRY8hEpHJgaAAgA1BnA4IJCKAFZwwiZo4MJIgOD%2BEGFRAFVZaSEAeVQAWVx0bABXSVxlQgBaCFdtXU8QADdZKClS-W9yLgomCzSrGxkFZSUlIA)\n - double check the voltage devider resisters can take the current\n - add a cap to 24V_GSE for energy storage\n - review LCSC, noticed one was out of stock"
+	(text_box "TODO\n - Add GSE_SENSE and 24V_CURR_SENSE\n - Review COMP C and R\n - Review 24V current sensing\n - add a cap to 24V_GSE for energy storage\n - switch to ceramic bulk caps\n - review LCSC, noticed one was out of stock"
 		(exclude_from_sim no)
 		(at 113.03 115.0112 0)
 		(size 84.5312 15.0876)
