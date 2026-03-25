@@ -13,10 +13,10 @@
 		(comment 4 "GRID = 0.635mm")
 	)
 	(lib_symbols)
-	(text_box "TODO\n - Add GSE_SENSE and 24V_CURR_SENSE\n - Review COMP C and R\n - Review 24V current sensing\n - add a cap to 24V_GSE for energy storage\n - switch to ceramic bulk caps\n - review LCSC, noticed one was out of stock"
+	(text_box "TODO\n - Review COMP C and R\n - Review 24V current sensing\n - review LCSC, noticed one was out of stock"
 		(exclude_from_sim no)
 		(at 113.03 115.0112 0)
-		(size 84.5312 15.0876)
+		(size 50.8 11.9888)
 		(stroke
 			(width 0)
 			(type default)

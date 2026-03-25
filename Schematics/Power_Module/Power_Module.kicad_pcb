@@ -43656,25 +43656,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text_box "TODO\n- maybe switch to thermal relief for GSE_SW+ and BATT_SW+\n- look into ceramic rail decoupling caps\n- finish routing signal traces"
-		(start 298.8 34.6)
-		(end 382.9 67)
-		(layer "Cmts.User")
-		(uuid "b653a435-8eed-48b3-ae1d-88dcb3d51270")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(border yes)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-	)
 	(segment
 		(start 168.55 43.95)
 		(end 169.55 43.95)
