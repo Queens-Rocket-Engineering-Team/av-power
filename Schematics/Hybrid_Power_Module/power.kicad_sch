@@ -9211,16 +9211,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 50.8 259.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C113965"
+		(property "LCSC" "C113965"
 			(at 50.8 259.08 0)
 			(effects
 				(font
@@ -9299,16 +9290,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 50.8 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C154876"
+		(property "LCSC" "C154876"
 			(at 50.8 191.77 0)
 			(effects
 				(font
@@ -9536,7 +9518,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C23206"
+		(property "LCSC" "C23206"
 			(at 289.56 71.12 0)
 			(effects
 				(font
@@ -9613,8 +9595,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
-			(at 278.13 62.23 90)
+		(property "LCSC" "C14663"
+			(at 278.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9692,7 +9674,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2869734"
+		(property "LCSC" "C2869734"
 			(at 361.95 106.68 0)
 			(effects
 				(font
@@ -9924,7 +9906,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C6186"
+		(property "LCSC" "C6186"
 			(at 377.19 26.67 0)
 			(effects
 				(font
@@ -10006,7 +9988,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15850"
+		(property "LCSC" "C15850"
 			(at 392.43 87.63 0)
 			(effects
 				(font
@@ -10150,7 +10132,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "LCSC" "C14663"
 			(at 39.37 35.56 0)
 			(effects
 				(font
@@ -10226,8 +10208,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22984"
-			(at 300.99 137.16 90)
+		(property "LCSC" "C22984"
+			(at 300.99 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +10353,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C96446"
+		(property "LCSC" "C96446"
 			(at 384.81 31.75 0)
 			(effects
 				(font
@@ -10748,15 +10730,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 256.54 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "_Digikey" "296-LMR51430XDDCRCT-ND"
 			(at 256.54 29.21 0)
 			(effects
@@ -10766,7 +10739,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5185863"
+		(property "LCSC" "C5185863"
 			(at 256.54 29.21 0)
 			(effects
 				(font
@@ -10856,7 +10829,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15849"
+		(property "LCSC" "C15849"
 			(at 38.1 181.61 0)
 			(effects
 				(font
@@ -10933,8 +10906,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
-			(at 278.13 24.13 90)
+		(property "LCSC" "C14663"
+			(at 278.13 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,16 +10984,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 50.8 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2941042"
+		(property "LCSC" "C2941042"
 			(at 50.8 215.9 0)
 			(effects
 				(font
@@ -11176,15 +11140,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "_Digikey" "296-LMR51430XDDCRCT-ND"
 			(at 256.54 67.31 0)
 			(effects
@@ -11194,7 +11149,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5185863"
+		(property "LCSC" "C5185863"
 			(at 256.54 67.31 0)
 			(effects
 				(font
@@ -11284,7 +11239,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C21190"
+		(property "LCSC" "C21190"
 			(at 345.44 208.28 0)
 			(effects
 				(font
@@ -11495,7 +11450,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2869734"
+		(property "LCSC" "C2869734"
 			(at 361.95 83.82 0)
 			(effects
 				(font
@@ -11548,7 +11503,7 @@
 				)
 			)
 		)
-		(property "Value" "TSM2309CX"
+		(property "Value" "SI2305CDS"
 			(at 64.77 243.84 90)
 			(effects
 				(font
@@ -11586,16 +11541,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 64.77 250.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2977534"
+		(property "LCSC" "C5182095"
 			(at 64.77 250.19 0)
 			(effects
 				(font
@@ -11743,7 +11689,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15850"
+		(property "LCSC" "C15850"
 			(at 303.53 33.02 0)
 			(effects
 				(font
@@ -11887,7 +11833,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15850"
+		(property "LCSC" "C15850"
 			(at 295.91 33.02 0)
 			(effects
 				(font
@@ -12031,7 +11977,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C13585"
+		(property "LCSC" "C13585"
 			(at 226.06 66.04 0)
 			(effects
 				(font
@@ -12108,16 +12054,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 58.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C43276"
+		(property "LCSC" "C43276"
 			(at 58.42 44.45 0)
 			(effects
 				(font
@@ -12231,7 +12168,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15849"
+		(property "LCSC" "C15849"
 			(at 38.1 212.09 0)
 			(effects
 				(font
@@ -12373,7 +12310,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22940"
+		(property "LCSC" "C22940"
 			(at 173.99 36.83 0)
 			(effects
 				(font
@@ -12451,16 +12388,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 76.2 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C4260"
+		(property "LCSC" "C4260"
 			(at 76.2 60.96 0)
 			(effects
 				(font
@@ -12816,16 +12744,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C21117"
+		(property "LCSC" "C21117"
 			(at 76.2 68.58 0)
 			(effects
 				(font
@@ -13047,16 +12966,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 50.8 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C113965"
+		(property "LCSC" "C113965"
 			(at 50.8 251.46 0)
 			(effects
 				(font
@@ -13277,7 +13187,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25803"
+		(property "LCSC" "C25803"
 			(at 289.56 33.02 0)
 			(effects
 				(font
@@ -13422,7 +13332,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15850"
+		(property "LCSC" "C15850"
 			(at 304.8 71.12 0)
 			(effects
 				(font
@@ -13500,7 +13410,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C96446"
+		(property "LCSC" "C96446"
 			(at 369.57 31.75 0)
 			(effects
 				(font
@@ -13722,7 +13632,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15849"
+		(property "LCSC" "C15849"
 			(at 31.75 190.5 0)
 			(effects
 				(font
@@ -13798,7 +13708,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22978"
+		(property "LCSC" "C22978"
 			(at 175.26 25.4 0)
 			(effects
 				(font
@@ -13876,7 +13786,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C13585"
+		(property "LCSC" "C13585"
 			(at 226.06 27.94 0)
 			(effects
 				(font
@@ -14020,7 +13930,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "LCSC" "C14663"
 			(at 355.6 212.09 0)
 			(effects
 				(font
@@ -14096,7 +14006,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2297"
+		(property "LCSC" "C2297"
 			(at 184.15 25.4 0)
 			(effects
 				(font
@@ -14241,7 +14151,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "LCSC" "C14663"
 			(at 351.79 154.94 0)
 			(effects
 				(font
@@ -14319,7 +14229,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C13585"
+		(property "LCSC" "C13585"
 			(at 76.2 198.12 0)
 			(effects
 				(font
@@ -14397,7 +14307,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1779"
+		(property "LCSC" "C1779"
 			(at 342.9 199.39 0)
 			(effects
 				(font
@@ -14698,16 +14608,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 50.8 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C154876"
+		(property "LCSC" "C154876"
 			(at 50.8 201.93 0)
 			(effects
 				(font
@@ -14803,7 +14704,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "LCSC" "C14663"
 			(at 236.22 27.94 0)
 			(effects
 				(font
@@ -14881,7 +14782,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C31850"
+		(property "LCSC" "C31850"
 			(at 289.56 40.64 0)
 			(effects
 				(font
@@ -15025,7 +14926,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C23234"
+		(property "LCSC" "C23234"
 			(at 289.56 78.74 0)
 			(effects
 				(font
@@ -15101,8 +15002,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25804"
-			(at 346.71 135.89 90)
+		(property "LCSC" "C25804"
+			(at 346.71 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15309,7 +15210,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C57112"
+		(property "LCSC" "C57112"
 			(at 40.64 59.69 0)
 			(effects
 				(font
@@ -15682,8 +15583,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C125867"
-			(at 58.42 128.27 90)
+		(property "LCSC" "C125867"
+			(at 58.42 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15778,16 +15679,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 86.36 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C13585"
+		(property "LCSC" "C13585"
 			(at 86.36 36.83 0)
 			(effects
 				(font
@@ -15865,7 +15757,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15849"
+		(property "LCSC" "C15849"
 			(at 337.82 85.09 0)
 			(effects
 				(font
@@ -15943,7 +15835,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15849"
+		(property "LCSC" "C15849"
 			(at 337.82 66.04 0)
 			(effects
 				(font
@@ -16300,16 +16192,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 72.39 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C545360"
+		(property "LCSC" "C545360"
 			(at 72.39 251.46 0)
 			(effects
 				(font
@@ -16660,7 +16543,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C192764"
+		(property "LCSC" "C192764"
 			(at 331.47 208.28 0)
 			(effects
 				(font
@@ -16816,7 +16699,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15849"
+		(property "LCSC" "C15849"
 			(at 337.82 107.95 0)
 			(effects
 				(font
@@ -16894,7 +16777,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1779"
+		(property "LCSC" "C1779"
 			(at 30.48 35.56 0)
 			(effects
 				(font
@@ -17035,8 +16918,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22984"
-			(at 311.15 137.16 90)
+		(property "LCSC" "C22984"
+			(at 311.15 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17111,7 +16994,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C84256"
+		(property "LCSC" "C84256"
 			(at 184.15 36.83 0)
 			(effects
 				(font
@@ -17255,7 +17138,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "LCSC" "C14663"
 			(at 353.06 175.26 0)
 			(effects
 				(font
@@ -17333,8 +17216,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25803"
-			(at 389.89 135.89 90)
+		(property "LCSC" "C25803"
+			(at 389.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17411,16 +17294,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 93.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C13585"
+		(property "LCSC" "C13585"
 			(at 93.98 36.83 0)
 			(effects
 				(font
@@ -17498,7 +17372,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "LCSC" "C14663"
 			(at 236.22 66.04 0)
 			(effects
 				(font
@@ -17639,7 +17513,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22790"
+		(property "LCSC" "C22790"
 			(at 176.53 50.8 0)
 			(effects
 				(font
@@ -17795,7 +17669,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "LCSC" "C14663"
 			(at 334.01 199.39 0)
 			(effects
 				(font
@@ -17874,16 +17748,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C22961"
+		(property "LCSC" "C22961"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -17959,8 +17824,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22984"
-			(at 336.55 135.89 90)
+		(property "LCSC" "C22984"
+			(at 336.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,16 +17980,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 81.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C23254"
+		(property "LCSC" "C23254"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -18165,7 +18021,7 @@
 				)
 			)
 		)
-		(property "Value" "24V PWR (YLW)"
+		(property "Value" "24V PWR (WHIT)"
 			(at 185.42 46.99 0)
 			(effects
 				(font
@@ -18200,7 +18056,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C34499"
+		(property "LCSC" "C34499"
 			(at 185.42 50.8 0)
 			(effects
 				(font
@@ -18276,8 +18132,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25804"
-			(at 379.73 135.89 90)
+		(property "LCSC" "C25804"
+			(at 379.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18354,7 +18210,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15849"
+		(property "LCSC" "C15849"
 			(at 30.48 203.2 0)
 			(effects
 				(font
@@ -18433,16 +18289,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C22790"
+		(property "LCSC" "C22790"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -18586,7 +18433,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15850"
+		(property "LCSC" "C15850"
 			(at 295.91 71.12 0)
 			(effects
 				(font
@@ -18665,7 +18512,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2869734"
+		(property "LCSC" "C2869734"
 			(at 361.95 64.77 0)
 			(effects
 				(font
@@ -18756,16 +18603,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 50.8 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2941042"
+		(property "LCSC" "C2941042"
 			(at 50.8 176.53 0)
 			(effects
 				(font
