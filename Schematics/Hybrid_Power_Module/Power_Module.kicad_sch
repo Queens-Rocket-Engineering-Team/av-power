@@ -13,7 +13,7 @@
 		(comment 4 "GRID = 0.635mm")
 	)
 	(lib_symbols)
-	(text_box "TODO\n - Review COMP C and R\n - review LCSC, noticed one was out of stock"
+	(text_box "TODO\n - Review COMP C and R"
 		(exclude_from_sim no)
 		(at 113.03 115.0112 0)
 		(size 50.8 11.9888)
