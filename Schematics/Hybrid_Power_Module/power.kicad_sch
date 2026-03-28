@@ -12524,7 +12524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Shunt Resistor"
+		(property "Description" "SHUNT"
 			(at 308.61 208.28 0)
 			(effects
 				(font
@@ -13877,6 +13877,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 379.73 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75084284-3f3f-42b3-a2e6-b2c7b8ff662b")
+		(property "Reference" "R14"
+			(at 383.54 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 382.27 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 379.73 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 379.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 379.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 379.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a38cd333-bc1d-434a-8382-296473995361")
+		)
+		(pin "1"
+			(uuid "0aabf205-b4b5-41b9-9bda-50666e8ed492")
+		)
+		(instances
+			(project "Power_Module"
+				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 355.6 212.09 0)
 		(unit 1)
@@ -14170,6 +14248,82 @@
 			(project "Power_Module"
 				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 389.89 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8da98127-a475-47c5-b09b-a79b3b9d6816")
+		(property "Reference" "R15"
+			(at 389.255 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 389.255 137.9108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 389.89 134.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 389.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 389.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb9d8244-ab99-4671-be10-fa7babc298ce")
+		)
+		(pin "2"
+			(uuid "6d8648f7-d830-4b7e-967a-74fac238bf40")
+		)
+		(instances
+			(project "Power_Module"
+				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17163,84 +17317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 389.89 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce6051c1-f44e-4b05-a921-05bf5f9f5156")
-		(property "Reference" "R15"
-			(at 393.7 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 392.43 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 389.89 137.668 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 389.89 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 389.89 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25803"
-			(at 389.89 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "215933b4-3499-408b-921b-b362d1c07496")
-		)
-		(pin "1"
-			(uuid "2501ac28-c2cc-45eb-920a-bf71cdedd867")
-		)
-		(instances
-			(project ""
-				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 93.98 36.83 0)
 		(unit 1)
@@ -18075,82 +18151,6 @@
 			(project "Power_Module"
 				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 379.73 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e41c5e1b-58b1-4b9c-b365-25a9929b4935")
-		(property "Reference" "R14"
-			(at 379.095 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 379.095 137.9108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 379.73 134.112 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 379.73 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 379.73 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 379.73 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03c253fc-03ff-44d0-a663-b07b24dda0c1")
-		)
-		(pin "2"
-			(uuid "142e8bf5-fb66-4e34-af9e-4f9ade23b888")
-		)
-		(instances
-			(project "Power_Module"
-				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24/f4c51f51-72e5-4abd-a0d4-d966d9c5494e"
-					(reference "R14")
 					(unit 1)
 				)
 			)
