@@ -9404,7 +9404,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "600R"
 			(at 152.4 20.32 90)
 			(effects
 				(font
@@ -11659,7 +11659,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2290"
 			(at 178.435 85.09 0)
 			(effects
 				(font

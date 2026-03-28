@@ -1414,7 +1414,7 @@
 				)
 			)
 		)
-		(property "Description" "GND"
+		(property "Description" ""
 			(at 0 -1.9 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -2115,7 +2115,7 @@
 				)
 			)
 		)
-		(property "Description" "3V3"
+		(property "Description" ""
 			(at -0.7 -1.8 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -2811,7 +2811,7 @@
 				)
 			)
 		)
-		(property "Description" "5V BUCK"
+		(property "Description" ""
 			(at -7.6 -4.3 90)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -3124,7 +3124,7 @@
 				)
 			)
 		)
-		(property "Description" "GSEV"
+		(property "Description" ""
 			(at -1.7 0 90)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -4567,7 +4567,7 @@
 				)
 			)
 		)
-		(property "Description" "3.3V BUCK"
+		(property "Description" ""
 			(at -7.45 -4.2 90)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -7454,7 +7454,7 @@
 		(uuid "3b743fdd-3065-4bd5-80f7-796042f48845")
 		(at 168.435 87.635 -90)
 		(property "Reference" "U13"
-			(at -2.435 -1.165 360)
+			(at -2.435 -1.165 0)
 			(layer "F.SilkS")
 			(uuid "53d99c29-774d-4a77-9548-cdb9e29eff06")
 			(effects
@@ -9935,7 +9935,7 @@
 				)
 			)
 		)
-		(property "Description" "B.S"
+		(property "Description" ""
 			(at 0 -1.9 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -10070,7 +10070,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "600R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c4ac1906-6030-4c61-a7f7-abb046e417e0")
@@ -11238,7 +11238,7 @@
 				)
 			)
 		)
-		(property "Description" "24V"
+		(property "Description" ""
 			(at 0 -1.8 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -13503,7 +13503,7 @@
 				)
 			)
 		)
-		(property "Description" "DEBUG"
+		(property "Description" ""
 			(at 1.8 1.6 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -13515,7 +13515,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2290"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16654,7 +16654,7 @@
 				)
 			)
 		)
-		(property "Description" "5V"
+		(property "Description" ""
 			(at -0.8 -1.8 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -18527,7 +18527,7 @@
 				)
 			)
 		)
-		(property "Description" "BATT"
+		(property "Description" ""
 			(at -0.05 -1.9 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -18700,7 +18700,7 @@
 				)
 			)
 		)
-		(property "Description" "GND"
+		(property "Description" ""
 			(at -1.7 -0.2 90)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -26887,7 +26887,7 @@
 				)
 			)
 		)
-		(property "Value" "12K"
+		(property "Value" "12k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1bfdb299-1e91-4561-9e23-8bd687c16218")
@@ -27920,7 +27920,7 @@
 				)
 			)
 		)
-		(property "Description" "24V.B"
+		(property "Description" ""
 			(at 0 -3.2 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -28088,7 +28088,7 @@
 				)
 			)
 		)
-		(property "Description" "24V BOOST"
+		(property "Description" ""
 			(at -8.15 0.9 0)
 			(layer "F.SilkS" knockout)
 			(uuid "28278ca6-9d30-4fed-9126-9e04947a57ad")
@@ -28933,7 +28933,7 @@
 				)
 			)
 		)
-		(property "Description" "5V.S"
+		(property "Description" ""
 			(at -0.6 -1.8 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -29106,7 +29106,7 @@
 				)
 			)
 		)
-		(property "Description" "GSE.S"
+		(property "Description" ""
 			(at -0.8 1.7 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -30835,7 +30835,7 @@
 				)
 			)
 		)
-		(property "Description" "BOOT1"
+		(property "Description" ""
 			(at 4.4 0 90)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
@@ -31794,7 +31794,7 @@
 				)
 			)
 		)
-		(property "Description" "RESET"
+		(property "Description" ""
 			(at 4.4 -0.125 90)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
