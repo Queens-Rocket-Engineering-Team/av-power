@@ -10422,7 +10422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24V_PSU"
+		(property "Value" "24V.B"
 			(at 96.52 30.9879 0)
 			(effects
 				(font
@@ -10449,7 +10449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24V.B"
 			(at 93.98 33.02 0)
 			(effects
 				(font
@@ -11036,7 +11036,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GSE_SENS"
+		(property "Value" "GSE.S"
 			(at 297.815 97.79 0)
 			(effects
 				(font
@@ -11063,7 +11063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GSE.S"
 			(at 300.99 102.87 0)
 			(effects
 				(font
@@ -11401,7 +11401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "A.S"
+		(property "Value" "B.S"
 			(at 254.635 95.885 0)
 			(effects
 				(font
@@ -11428,7 +11428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "B.S"
 			(at 257.81 100.965 0)
 			(effects
 				(font
@@ -11736,16 +11736,7 @@
 				(hide yes)
 			)
 		)
-		(property "_Digikey" "296-LMR51430XDDCRCT-ND"
-			(at 256.54 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5185863"
+		(property "Digikey" "296-LMR51430XDDCRCT-ND"
 			(at 256.54 29.21 0)
 			(effects
 				(font
@@ -12146,16 +12137,7 @@
 				(hide yes)
 			)
 		)
-		(property "_Digikey" "296-LMR51430XDDCRCT-ND"
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5185863"
+		(property "Digikey" "296-LMR51430XDDCRCT-ND"
 			(at 256.54 67.31 0)
 			(effects
 				(font
@@ -12287,7 +12269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5VSENS"
+		(property "Value" "5V.S"
 			(at 219.075 97.155 0)
 			(effects
 				(font
@@ -12314,7 +12296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V.S"
 			(at 222.25 102.235 0)
 			(effects
 				(font
@@ -13060,7 +13042,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C43276"
+		(property "Digikey" "296-24013-1-ND"
 			(at 58.42 44.45 0)
 			(effects
 				(font
@@ -13216,7 +13198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BATT_GND1"
+		(property "Value" "GND"
 			(at 62.23 135.89 90)
 			(effects
 				(font
@@ -13243,7 +13225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 58.42 133.35 0)
 			(effects
 				(font
@@ -13633,7 +13615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -13777,7 +13759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5V"
 			(at 236.22 140.97 0)
 			(effects
 				(font
@@ -13918,7 +13900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-8045-1-ND"
+		(property "LCSC" " C12891"
 			(at 269.24 243.84 0)
 			(effects
 				(font
@@ -14403,7 +14385,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GSE_GND1"
+		(property "Value" "GND"
 			(at 67.31 267.4619 0)
 			(effects
 				(font
@@ -14430,7 +14412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 64.77 262.89 0)
 			(effects
 				(font
@@ -14728,7 +14710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-8045-1-ND"
+		(property "LCSC" " C12891"
 			(at 264.16 220.98 0)
 			(effects
 				(font
@@ -14961,7 +14943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "445-8045-1-ND"
+		(property "LCSC" "C12891"
 			(at 269.24 224.79 0)
 			(effects
 				(font
@@ -16450,7 +16432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GSEV"
+		(property "Value" "24V.G"
 			(at 69.215 242.57 0)
 			(effects
 				(font
@@ -16477,7 +16459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24V.G"
 			(at 72.39 247.65 0)
 			(effects
 				(font
@@ -17582,7 +17564,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "24V_MUX"
+		(property "Value" "24V.OR"
 			(at 223.52 184.9119 0)
 			(effects
 				(font
@@ -17609,7 +17591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24V"
 			(at 220.98 180.34 0)
 			(effects
 				(font
@@ -20498,7 +20480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BATT"
 			(at 67.31 125.73 0)
 			(effects
 				(font

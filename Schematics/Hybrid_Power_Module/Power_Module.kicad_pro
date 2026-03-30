@@ -66,14 +66,6 @@
       "drc_exclusions": [
         "courtyards_overlap|147449999|84347401|d4cb5bb7-8b82-437a-9014-a2d3a4da1677|d550b2e3-0636-4557-b36e-e5a2c166b611",
         "courtyards_overlap|183029999|84347401|25cb6c22-863d-416c-be8a-3dfa89c71ed3|7d24089e-d43d-46d6-bb4b-0d2e74c53ce5",
-        "hole_clearance|162100000|93470000|d8f8ecce-d2bb-48f6-888b-1bcd8a773d35|706f1cf0-55ab-4fba-83d4-a2b9242e5429",
-        "hole_clearance|162100000|93470000|d8f8ecce-d2bb-48f6-888b-1bcd8a773d35|728ea301-e56f-4078-a844-0d884711b0db",
-        "hole_clearance|162300000|93470000|d8f8ecce-d2bb-48f6-888b-1bcd8a773d35|43d30139-1684-45ad-8e47-5b97ff451a4d",
-        "hole_clearance|162300000|93470000|d8f8ecce-d2bb-48f6-888b-1bcd8a773d35|c901187d-6e29-47a5-b182-262ba1a7f75b",
-        "hole_clearance|167700000|93470000|9387211c-5faf-4180-a022-6873c300336a|207199be-a6bc-43cb-92cf-886c2cc74038",
-        "hole_clearance|167700000|93470000|9387211c-5faf-4180-a022-6873c300336a|b969ce33-e302-43ef-adfa-44489433d0eb",
-        "hole_clearance|167900000|93470000|9387211c-5faf-4180-a022-6873c300336a|b3acebd3-7329-490d-81bd-ced151cac566",
-        "hole_clearance|167900000|93470000|9387211c-5faf-4180-a022-6873c300336a|d833a730-6d8f-48f3-9a47-7311adc880b6",
         "silk_edge_clearance|160530000|99750000|481834ae-e9da-4925-a3c4-62e3e83c61f7|0d52c453-4374-40ed-b0b5-d9b4b37b2dfa",
         "silk_edge_clearance|169470000|99750000|481834ae-e9da-4925-a3c4-62e3e83c61f7|ec83f4aa-26c1-4dd1-bc56-361c8fe1b11c",
         "silk_over_copper|160820000|94230469|3c9e0047-bbcb-4eac-b8fb-27fbaac47ac0|00000000-0000-0000-0000-000000000000",
@@ -672,7 +664,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -681,8 +673,8 @@
           "show": true
         }
       ],
-      "filter_string": "R3",
-      "group_symbols": true,
+      "filter_string": "C50",
+      "group_symbols": false,
       "name": "",
       "sort_asc": false,
       "sort_field": "_Digikey"
