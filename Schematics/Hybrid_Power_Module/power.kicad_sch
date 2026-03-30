@@ -9218,6 +9218,17 @@
 		)
 		(uuid "ed3453ad-f345-44d6-914c-f96df8f6a519")
 	)
+	(label "5V SW"
+		(at 274.32 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "100767c0-7a88-47cf-9062-e3f4038d9984")
+	)
 	(label "BATT+"
 		(at 44.45 128.27 0)
 		(fields_autoplaced yes)
@@ -9239,6 +9250,17 @@
 			(justify left bottom)
 		)
 		(uuid "4f6a4617-ae43-4355-9027-d2ba7a557c21")
+	)
+	(label "3.3V SW"
+		(at 274.32 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54d650e3-6156-4c98-aae0-edf75c597865")
 	)
 	(label "GSE_SW+"
 		(at 44.45 247.65 0)
