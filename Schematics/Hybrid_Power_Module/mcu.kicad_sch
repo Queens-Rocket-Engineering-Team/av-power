@@ -7335,7 +7335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RESET"
 			(at 24.13 99.06 0)
 			(effects
 				(font
@@ -8528,7 +8528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BOOT"
 			(at 31.75 64.77 0)
 			(effects
 				(font

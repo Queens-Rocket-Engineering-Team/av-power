@@ -11727,7 +11727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3V BUCK"
 			(at 256.54 29.21 0)
 			(effects
 				(font
@@ -12128,7 +12128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.0V BUCK"
 			(at 256.54 67.31 0)
 			(effects
 				(font
@@ -13033,7 +13033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "24V BOOST"
 			(at 58.42 44.45 0)
 			(effects
 				(font
@@ -13615,7 +13615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3v3"
+		(property "Description" "3.3V"
 			(at 236.22 120.65 0)
 			(effects
 				(font
