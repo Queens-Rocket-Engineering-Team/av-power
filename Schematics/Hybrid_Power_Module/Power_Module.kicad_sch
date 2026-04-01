@@ -1,0 +1,116 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "11b1f19b-ce82-4fce-baf6-0357ef2e3f24")
+	(paper "A4")
+	(title_block
+		(title "QRET 23-25 SRAD Power Module")
+		(date "2025-03-03")
+		(rev "V2.0")
+		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Contributors: Rajan Laird, Kennan Bays, Oak Campbell")
+		(comment 4 "GRID = 0.635mm")
+	)
+	(lib_symbols)
+	(text_box "TODO\n - Review COMP C and R"
+		(exclude_from_sim no)
+		(at 113.03 115.0112 0)
+		(size 50.8 11.9888)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "08024440-2af1-4fa6-996d-819f50031b85")
+	)
+	(sheet
+		(at 158.75 81.28)
+		(size 34.29 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d4d1294-ccf0-404c-9521-5e9addbc8fbf")
+		(property "Sheetname" "mcu"
+			(at 158.75 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 158.75 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Module"
+				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.235 80.645)
+		(size 38.735 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4c51f51-72e5-4abd-a0d4-d966d9c5494e")
+		(property "Sheetname" "power"
+			(at 102.235 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 102.235 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Module"
+				(path "/11b1f19b-ce82-4fce-baf6-0357ef2e3f24"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
