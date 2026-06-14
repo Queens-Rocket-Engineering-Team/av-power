@@ -25,7 +25,8 @@ constexpr uint32_t kCanBaud = 500000U;
 // Application logic entry points. Bodies are stubs until the power board's
 // voltage/current sensing and rail control are implemented.
 void nodeInit(uint32_t nowMs);
-void nodeServiceCanTx(uint32_t schedulerNowMs, AimNetwork& aim);
 void nodeUpdate(uint32_t schedulerNowMs);
+void nodeServiceCanTx(uint32_t schedulerNowMs, AimNetwork& aim);
+void nodeOnRx(const aim::Msg& m, uint32_t nowMs);
 
 #endif  // NODE_H

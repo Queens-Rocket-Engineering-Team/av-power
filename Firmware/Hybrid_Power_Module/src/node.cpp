@@ -22,3 +22,9 @@ void nodeServiceCanTx(uint32_t schedulerNowMs, AimNetwork& aim) {
   (void)schedulerNowMs;
   (void)aim;
 }
+
+void nodeOnRx(const aim::Msg& m, uint32_t nowMs) {
+  // TODO: handle cross-node events once subjects are defined.
+  (void)m;
+  (void)nowMs;
+}

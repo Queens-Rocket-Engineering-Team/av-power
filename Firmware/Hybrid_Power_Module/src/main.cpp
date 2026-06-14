@@ -13,13 +13,12 @@ static AimNetwork g_aim(&g_canHw, aim::Source::Power);
 // pinouts.h, so g_logger stays null and LOG_* macros no-op. Add a Logger on a
 // SoftwareSerial here once the serial pins are defined (see GPS_Module).
 
-void serviceCanRx(void) {
-  // Bounded RX drain. receive() disciplines the local clock on TimeSync.
+static void serviceCanRx(void) {
+  const uint32_t nowMs = millis();
   for (uint8_t i = 0U; i < kMaxRxFramesPerLoop; i++) {
     aim::Msg m = {};
-    if (!g_aim.receive(m)) {
-      break;
-    }
+    if (!g_aim.receive(m)) break;
+    nodeOnRx(m, nowMs);
   }
 }
 
