@@ -6,7 +6,7 @@
 static constexpr uint32_t kWatchdogTimeoutUs  = 2000000U;
 static constexpr uint8_t  kMaxRxFramesPerLoop = 8U;
 
-static AimCanDriver g_canHw(node::kCanBaud, NODE_CAN_BUS);
+static AimCanDriver g_canHw(node::kCanBaud, CAN1);
 static AimNetwork g_aim(&g_canHw, aim::Source::Power);
 
 // No diagnostic serial yet: the power board's UART pins are still TBD in
