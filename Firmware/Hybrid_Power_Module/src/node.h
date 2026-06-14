@@ -25,4 +25,7 @@ void nodeUpdate(uint32_t schedulerNowMs);
 void nodeServiceCanTx(uint32_t schedulerNowMs, AimNetwork& aim);
 void nodeOnRx(const aim::Msg& m, uint32_t nowMs);
 
+aim::NodeState nodeCurrentState();
+uint16_t nodeErrorBits();
+
 #endif  // NODE_H

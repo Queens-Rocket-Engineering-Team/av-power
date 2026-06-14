@@ -42,7 +42,7 @@ void loop(void) {
   serviceCanRx();
   nodeUpdate(schedulerNowMs);
   nodeServiceCanTx(schedulerNowMs, g_aim);
-  g_aim.service(aim::NodeState::Nominal, 0U);   // heartbeat fills bus silence
+  g_aim.service(nodeCurrentState(), nodeErrorBits());   // heartbeat fills bus silence
 
   IWatchdog.reload();
 }
