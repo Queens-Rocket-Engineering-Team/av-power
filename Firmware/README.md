@@ -2,7 +2,7 @@
 
 This directory contains the firmware for the avionics Power Modules. The module firmware in this directory should be mostly functional.
 
-We currently use the Arduino IDE with the STM32Duino core ("STM32 MCU based boards" by STMicroelectronics, working with 2.7.1) for developing firmware for our modules (working with ). We flash firmware to the modules using SWD via an STLinkV2.
+We currently use the Arduino IDE with the STM32Duino core ("STM32 MCU based boards" by STMicroelectronics, working with 2.7.1) for developing firmware for our modules. We flash firmware to the modules using SWD via an STLinkV2.
 
 ## Attributions
 

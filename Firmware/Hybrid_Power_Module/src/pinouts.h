@@ -32,6 +32,7 @@ constexpr uint8_t k5VSense         = PA1;
 constexpr uint8_t k3V3AcsPower     = PA4;
 constexpr uint8_t k3V3CurrentSense = PA2;
 // Power enable for 5v current sense
+// !!! DO NOT POWER ON (using wrong current sense could break mcu)
 constexpr uint8_t k5VAcsPower      = PA6;
 constexpr uint8_t k5VCurrentSense  = PA5;
 
