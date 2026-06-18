@@ -107,7 +107,7 @@ void loop(void) {
   serviceCanRx();
   nodeUpdate(schedulerNowMs);
   nodeServiceCanTx(schedulerNowMs, g_aim);
-  g_aim.service(nodeCurrentState(), nodeErrorBits());
+  g_aim.service(schedulerNowMs, nodeCurrentState(), nodeErrorBits());
 
 #ifndef FLIGHT_BUILD
   aimConsoleService();
