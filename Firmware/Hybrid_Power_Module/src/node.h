@@ -20,9 +20,9 @@ constexpr uint32_t kSerialBaud   = 38400U;
 }  // namespace node
 
 // Application logic entry points.
-void nodeInit(uint32_t nowMs);
-void nodeUpdate(uint32_t schedulerNowMs);
-void nodeServiceCanTx(uint32_t schedulerNowMs, AimNetwork& aim);
+void nodeInit();
+void nodeUpdate(uint32_t nowMs);
+void nodeServiceCanTx(uint32_t nowMs, AimNetwork& aim);
 void nodeOnRx(const aim::Msg& m, uint32_t nowMs);
 
 aim::NodeState nodeCurrentState();

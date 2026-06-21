@@ -3,7 +3,6 @@
 #include <logger.h>
 #include <aim_job.h>
 
-// Quiescent voltage and scaling state.
 static uint32_t s_batteryMv = 3700U;
 static uint32_t s_5vMv = 0U;
 static uint32_t s_gseMv = 0U;
@@ -12,11 +11,16 @@ static int32_t s_i24vMa = 0;
 
 static constexpr uint32_t kLowPowerThresholdMv = 3400U;
 static bool s_lowPowerState = false;
-static aim::Job s_telemetryJob{1000U};
+static aim::Job s_telemetryJob{1000U, 0U};
 
-void nodeInit(uint32_t nowMs) {
-  (void)nowMs;
+static void updateLed(aim::NodeState state) {
+  static aim::NodeState s_lastState = static_cast<aim::NodeState>(0xFF);
+  if (state == s_lastState) return;
+  s_lastState = state;
+  digitalWrite(pins::kDebugLed, (state == aim::NodeState::Nominal) ? HIGH : LOW);
+}
 
+void nodeInit() {
   pinMode(pins::kDebugLed, OUTPUT);
   digitalWrite(pins::kDebugLed, LOW);
 
@@ -39,8 +43,9 @@ void nodeInit(uint32_t nowMs) {
   LOG_INFO("Power telemetry pins initialized");
 }
 
-void nodeUpdate(uint32_t schedulerNowMs) {
-  (void)schedulerNowMs;
+void nodeUpdate(uint32_t nowMs) {
+  updateLed(nodeCurrentState());
+  (void)nowMs;
 
   // Sample voltages using integer division
   s_batteryMv = (static_cast<uint32_t>(analogRead(pins::kBatterySense)) * 13200U) / 4095U;
@@ -56,8 +61,8 @@ void nodeUpdate(uint32_t schedulerNowMs) {
   s_i24vMa = v24vIMv / 2;
 }
 
-void nodeServiceCanTx(uint32_t schedulerNowMs, AimNetwork& aim) {
-  if (s_telemetryJob.due(schedulerNowMs)) {
+void nodeServiceCanTx(uint32_t nowMs, AimNetwork& aim) {
+  if (s_telemetryJob.due(nowMs)) {
     // 1. Publish battery voltage
     aim::Msg voltMsg = {};
     voltMsg.cls = aim::Class::Sensor;
@@ -84,7 +89,7 @@ void nodeOnRx(const aim::Msg& m, uint32_t nowMs) {
 }
 
 aim::NodeState nodeCurrentState() {
-  return aim::NodeState::Nominal;
+  return s_lowPowerState ? aim::NodeState::Fault : aim::NodeState::Nominal;
 }
 
 uint16_t nodeErrorBits() {
