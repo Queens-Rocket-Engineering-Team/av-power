@@ -5665,9 +5665,9 @@
 		)
 		(uuid "65a00ef6-f82b-4b55-b0f0-b85cb5754361")
 	)
-	(text "for next revision\nZener Pmax = 400mW\nAt full 24V on the cathode\nIz = 400mW/12V = 33.3mA\nR = 12^2/400mW = 360ohms\nVgs optimal for RDS(on) = -8V to -10V\nR1/(R1+R2) = 9.1/(9.1+15) = 0.378\nR1 = 9.1kohms\nR2 = 15kohms"
+	(text "for next revision - Noah edits\nTest current for Zener is 5mA. \nPrevious version had no R32, and \ndidn't limit current through zener.\n\nI_R32 = I_z = 12/3.9k ~=3mA\nClose enough to 5mA. \nI wouldn't go any lower though\n\nR31 exists to provide a path for G to \ndischarge when unplugged and has \nlittle relevance in normal operation \ndue to having resistance >> R32"
 		(exclude_from_sim no)
-		(at 74.676 263.652 0)
+		(at 74.676 266.192 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -19336,7 +19336,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "3.9k"
 			(at 67.31 260.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20694,7 +20694,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.1k"
+		(property "Value" "100k"
 			(at 82.55 252.7299 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -83,52 +83,12 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|169870000|88730000|125578ae-065b-4635-81b3-02cdba4c9b9b|63a28901-56b3-409b-83ad-3d9bac4c12d3",
-          "close enough"
+          "courtyards_overlap|147449999|84347401|d4cb5bb7-8b82-437a-9014-a2d3a4da1677|d550b2e3-0636-4557-b36e-e5a2c166b611",
+          ""
         ],
         [
-          "courtyards_overlap|146405483|85475000|afaccf2a-02f6-4b2f-97d0-c0111ebe3b8d|d550b2e3-0636-4557-b36e-e5a2c166b611",
-          "connector courtyard is solderable"
-        ],
-        [
-          "courtyards_overlap|147645000|84352400|d4cb5bb7-8b82-437a-9014-a2d3a4da1677|d550b2e3-0636-4557-b36e-e5a2c166b611",
-          "connector courtyard is solderable"
-        ],
-        [
-          "courtyards_overlap|183025000|84352400|25cb6c22-863d-416c-be8a-3dfa89c71ed3|7d24089e-d43d-46d6-bb4b-0d2e74c53ce5",
-          "connector coutyard is solderable"
-        ],
-        [
-          "hole_clearance|162100000|93470000|706f1cf0-55ab-4fba-83d4-a2b9242e5429|d8f8ecce-d2bb-48f6-888b-1bcd8a773d35",
-          "nothing we can do"
-        ],
-        [
-          "hole_clearance|162100000|93470000|728ea301-e56f-4078-a844-0d884711b0db|d8f8ecce-d2bb-48f6-888b-1bcd8a773d35",
-          "nothing we can do"
-        ],
-        [
-          "hole_clearance|162300000|93470000|43d30139-1684-45ad-8e47-5b97ff451a4d|d8f8ecce-d2bb-48f6-888b-1bcd8a773d35",
-          "nothing we can do"
-        ],
-        [
-          "hole_clearance|162300000|93470000|c901187d-6e29-47a5-b182-262ba1a7f75b|d8f8ecce-d2bb-48f6-888b-1bcd8a773d35",
-          "nothing we can do"
-        ],
-        [
-          "hole_clearance|167700000|93470000|207199be-a6bc-43cb-92cf-886c2cc74038|9387211c-5faf-4180-a022-6873c300336a",
-          "nothing we can do"
-        ],
-        [
-          "hole_clearance|167700000|93470000|b969ce33-e302-43ef-adfa-44489433d0eb|9387211c-5faf-4180-a022-6873c300336a",
-          "nothing we can do"
-        ],
-        [
-          "hole_clearance|167900000|93470000|b3acebd3-7329-490d-81bd-ced151cac566|9387211c-5faf-4180-a022-6873c300336a",
-          "nothing we can do"
-        ],
-        [
-          "hole_clearance|167900000|93470000|d833a730-6d8f-48f3-9a47-7311adc880b6|9387211c-5faf-4180-a022-6873c300336a",
-          "nothing we can do"
+          "courtyards_overlap|183029999|84347401|25cb6c22-863d-416c-be8a-3dfa89c71ed3|7d24089e-d43d-46d6-bb4b-0d2e74c53ce5",
+          ""
         ],
         [
           "silk_edge_clearance|160530000|99750000|481834ae-e9da-4925-a3c4-62e3e83c61f7|0d52c453-4374-40ed-b0b5-d9b4b37b2dfa",
@@ -136,6 +96,34 @@
         ],
         [
           "silk_edge_clearance|169470000|99750000|481834ae-e9da-4925-a3c4-62e3e83c61f7|ec83f4aa-26c1-4dd1-bc56-361c8fe1b11c",
+          ""
+        ],
+        [
+          "silk_over_copper|160820000|94230469|3c9e0047-bbcb-4eac-b8fb-27fbaac47ac0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|160956306|94380090|455d8c61-b7da-4ece-b01f-2d70a90578e9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|161130000|93445000|e8701231-9099-44a0-93b1-63519c37a3e3|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|161130000|93445000|fe4e87bb-652a-4fcf-9103-a6be99464584|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|169146306|94439333|75c97524-588d-4a0e-bca1-345232ba3ac5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|169197230|94446037|870f761c-528a-4c5d-b5c5-515c61f30f96|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|178743223|70878000|fcd36809-ddec-4576-aaa1-d7696c378376|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -830,7 +818,7 @@
         "uuid": "11b1f19b-ce82-4fce-baf6-0357ef2e3f24"
       }
     ],
-    "used_designators": "U5,U17,R31-32,#PWR55,C47",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
