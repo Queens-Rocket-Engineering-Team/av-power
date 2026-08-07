@@ -21,10 +21,10 @@ static constexpr uint16_t kLogOriginRefresh  = 64U;
 static constexpr uint32_t kLogMaxSize        = 1UL * 1024UL * 1024UL;
 static const char* const  kLogHeaders[kLogCols] = {"time"};
 
-static AimCanDriver g_canHw(node::kCanBaud, CAN1);
-static AimNetwork g_aim(&g_canHw, aim::Source::Power);
+static AimCanHardware g_canHw(node::kCanBaud, CAN1);
+static AimNetwork g_aim(&g_canHw, node::kSource);
 static SoftwareSerial g_serial(pins::kSerialRx, pins::kSerialTx);
-static Logger g_log(g_serial, static_cast<uint8_t>(aim::Source::Power), LogLevel::INFO);
+static Logger g_log(g_serial, static_cast<uint8_t>(node::kSource), LogLevel::INFO);
 
 // Flash on SPI2: MOSI=PB15, MISO=PB14, SCLK=PB13, CS=PB12 (kFlashReset in pinouts.h).
 static SPIClass g_flashSpi(pins::kSpiMosi, pins::kSpiMiso, pins::kSpiSclk);
@@ -63,7 +63,7 @@ static void hookStatus(Stream& out) {
 void setup(void) {
   g_serial.begin(node::kSerialBaud);
   g_logger = &g_log;
-  LOG_INFO("Boot %s source=%u", node::kName, static_cast<unsigned>(aim::Source::Power));
+  LOG_INFO("Boot %s source=%u", node::kName, static_cast<unsigned>(node::kSource));
   IWatchdog.begin(kWatchdogTimeoutUs);
   LOG_INFO("Watchdog ready");
 

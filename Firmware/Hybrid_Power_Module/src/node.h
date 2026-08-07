@@ -4,9 +4,7 @@
 #include <Arduino.h>
 #include <cstdint>
 
-#include <aim_can_driver.h>
 #include <aim_network.h>
-#include <aim_safety.h>
 
 #include "pinouts.h"
 
@@ -14,9 +12,10 @@
 // kSerialBaud is omitted until the power board's UART pins are defined in
 // pinouts.h (they are still TBD).
 namespace node {
-constexpr char     kName[]      = "POWER_MODULE";
-constexpr uint32_t kCanBaud     = 500000U;
-constexpr uint32_t kSerialBaud   = 38400U;
+constexpr char        kName[]     = "POWER_MODULE";
+constexpr aim::Source kSource     = aim::Source::Power;
+constexpr uint32_t    kCanBaud    = 1000000U;
+constexpr uint32_t    kSerialBaud = 38400U;
 }  // namespace node
 
 // Application logic entry points.
