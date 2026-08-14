@@ -14,13 +14,6 @@
 static constexpr uint32_t kWatchdogTimeoutUs  = 2000000U;
 static constexpr uint8_t  kMaxRxFramesPerLoop = 8U;
 
-// Flight-recorder geometry. No telemetry rows are written yet; the recorder
-// exists so the console can dump/erase. Headers must have static lifetime.
-static constexpr uint8_t  kLogCols           = 1U;
-static constexpr uint16_t kLogOriginRefresh  = 64U;
-static constexpr uint32_t kLogMaxSize        = 1UL * 1024UL * 1024UL;
-static const char* const  kLogHeaders[kLogCols] = {"time"};
-
 static AimCanHardware g_canHw(node::kCanBaud, CAN1);
 static AimNetwork g_aim(&g_canHw, node::kSource);
 static SoftwareSerial g_serial(pins::kSerialRx, pins::kSerialTx);

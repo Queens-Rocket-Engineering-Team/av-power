@@ -19,9 +19,9 @@ constexpr uint8_t kCanTx = PB9;
 
 // --- Flash interface (SPI) ---
 constexpr uint8_t kFlashReset = PB12;
-constexpr uint8_t kSpiSclk    = PB13;
-constexpr uint8_t kSpiMiso    = PB14;
-constexpr uint8_t kSpiMosi    = PB15;
+constexpr uint8_t kSpiSclk   = PB13;
+constexpr uint8_t kSpiMiso   = PB14;
+constexpr uint8_t kSpiMosi   = PB15;
 
 // --- Voltage and current sensing ---
 constexpr uint8_t kBatterySense    = PA0;

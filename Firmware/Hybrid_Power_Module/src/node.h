@@ -6,11 +6,11 @@
 
 #include <aim_network.h>
 
+class AimFlightRecorder;
+
 #include "pinouts.h"
 
 // Node-level identity and interface configuration lives in this file.
-// kSerialBaud is omitted until the power board's UART pins are defined in
-// pinouts.h (they are still TBD).
 namespace node {
 constexpr char        kName[]     = "POWER_MODULE";
 constexpr aim::Source kSource     = aim::Source::Power;
@@ -18,9 +18,15 @@ constexpr uint32_t    kCanBaud    = 1000000U;
 constexpr uint32_t    kSerialBaud = 38400U;
 }  // namespace node
 
+static constexpr uint8_t  kLogCols           = 3U;
+static constexpr uint16_t kLogOriginRefresh  = 100U;
+static constexpr uint32_t kLogMaxSize        = 0;
+static const char* const  kLogHeaders[kLogCols] = {"time", "bus24vMv", "bus5vMv"};
+
 // Application logic entry points.
 void nodeInit();
 void nodeUpdate(uint32_t nowMs);
+void nodeServiceLog(uint32_t nowMs, AimFlightRecorder& recorder);
 void nodeServiceCanTx(uint32_t nowMs, AimNetwork& aim);
 void nodeOnRx(const aim::Msg& m, uint32_t nowMs);
 
