@@ -8,7 +8,7 @@ void nodeServiceLog(uint32_t nowMs, AimFlightRecorder& recorder) {
   (void)recorder;
 }
 
-static uint32_t s_batteryMv = 3700U;
+static uint32_t s_batteryMv = 12000U;
 static uint32_t s_5vMv = 0U;
 static uint32_t s_gseMv = 0U;
 static int32_t s_i3v3Ma = 0;
@@ -41,7 +41,8 @@ inline uint32_t adcToMv(uint32_t rawAdc, uint32_t fullScaleMv) {
   return (rawAdc * fullScaleMv) / kAdcMaxCounts;
 }
 
-static constexpr uint32_t kLowPowerThresholdMv = 3400U;
+// 3S LiPo cutoff: 3.7V / cell -> 11,100 mV
+static constexpr uint32_t kLowPowerThresholdMv = 11100U;
 static bool s_lowPowerState = false;
 static aim::Job s_telemetryJob{1000U};
 
@@ -113,6 +114,17 @@ void nodeServiceCanTx(uint32_t nowMs, AimNetwork& aim) {
       lpMsg.cls = aim::Class::Event;
       lpMsg.subject = aim::subject::LowPower;
       lpMsg.b[0] = s_lowPowerState ? 1U : 0U;
+      (void)aim.send(lpMsg);
+      LOG_WARN("PowerModule LowPower transition: state=%u (V_BATT=%lu mV, thresh=%lu mV)",
+               s_lowPowerState ? 1U : 0U,
+               static_cast<unsigned long>(s_batteryMv),
+               static_cast<unsigned long>(kLowPowerThresholdMv));
+    } else if (s_lowPowerState) {
+      // Periodic 1 Hz refresh while in low power mode to self-heal newly booted nodes
+      aim::Msg lpMsg = {};
+      lpMsg.cls = aim::Class::Event;
+      lpMsg.subject = aim::subject::LowPower;
+      lpMsg.b[0] = 1U;
       (void)aim.send(lpMsg);
     }
   }
