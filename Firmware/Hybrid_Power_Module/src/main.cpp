@@ -11,7 +11,7 @@
 #include <aim_console.h>
 #endif
 
-static constexpr uint32_t kWatchdogTimeoutUs  = 2000000U;
+static constexpr uint32_t kWatchdogTimeoutUs  = 10000000U; // 10 seconds timeout
 static constexpr uint8_t  kMaxRxFramesPerLoop = 8U;
 
 static AimCanHardware g_canHw(node::kCanBaud, CAN1);
@@ -56,9 +56,8 @@ static void hookStatus(Stream& out) {
 void setup(void) {
   g_serial.begin(node::kSerialBaud);
   g_logger = &g_log;
+  g_log.setFilterMask(0xF);
   LOG_INFO("Boot %s source=%u", node::kName, static_cast<unsigned>(node::kSource));
-  IWatchdog.begin(kWatchdogTimeoutUs);
-  LOG_INFO("Watchdog ready");
 
   // Power is a Sensor/State publisher and TimeSync consumer.
   if (!g_aim.begin(aim::classBit(aim::Class::Time) |
@@ -89,6 +88,9 @@ void setup(void) {
 
   nodeInit();
 
+  IWatchdog.begin(kWatchdogTimeoutUs);
+  LOG_INFO("Watchdog ready (%lus timeout)", static_cast<unsigned long>(kWatchdogTimeoutUs / 1000000U));
+
 #ifndef FLIGHT_BUILD
   g_serial.println("Console ready. d=enter debug");
 #endif
@@ -99,6 +101,9 @@ void loop(void) {
 
   serviceCanRx();
   nodeUpdate(nowMs);
+  if (!aimConsoleIsActive()) {
+    nodeServiceLog(nowMs, g_recorder);
+  }
   nodeServiceCanTx(nowMs, g_aim);
   g_aim.service(nowMs, nodeCurrentState(), nodeErrorBits());
 

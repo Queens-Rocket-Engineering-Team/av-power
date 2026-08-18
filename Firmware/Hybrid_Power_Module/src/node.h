@@ -18,10 +18,10 @@ constexpr uint32_t    kCanBaud    = 1000000U;
 constexpr uint32_t    kSerialBaud = 38400U;
 }  // namespace node
 
-static constexpr uint8_t  kLogCols           = 3U;
+static constexpr uint8_t  kLogCols           = 4U;
 static constexpr uint16_t kLogOriginRefresh  = 100U;
 static constexpr uint32_t kLogMaxSize        = 0;
-static const char* const  kLogHeaders[kLogCols] = {"time", "bus24vMv", "bus5vMv"};
+static const char* const  kLogHeaders[kLogCols] = {"time", "batteryMv", "5vMv", "gseMv"};
 
 // Application logic entry points.
 void nodeInit();

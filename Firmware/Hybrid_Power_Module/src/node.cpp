@@ -3,11 +3,6 @@
 #include <aim_job.h>
 #include <aim_flight_recorder.h>
 
-void nodeServiceLog(uint32_t nowMs, AimFlightRecorder& recorder) {
-  (void)nowMs;
-  (void)recorder;
-}
-
 static uint32_t s_batteryMv = 12000U;
 static uint32_t s_5vMv = 0U;
 static uint32_t s_gseMv = 0U;
@@ -45,6 +40,7 @@ inline uint32_t adcToMv(uint32_t rawAdc, uint32_t fullScaleMv) {
 static constexpr uint32_t kLowPowerThresholdMv = 11100U;
 static bool s_lowPowerState = false;
 static aim::Job s_telemetryJob{1000U};
+static aim::Job s_logJob(1000U);  // 1 Hz flight log
 
 static void updateLed(aim::NodeState state) {
   static aim::NodeState s_lastState = static_cast<aim::NodeState>(0xFF);
@@ -95,6 +91,13 @@ void nodeUpdate(uint32_t nowMs) {
   // 24V current sensor (U6: INA187A1, 20 V/V gain across 100mOhm shunt -> 2 V/A -> 2 mV/mA)
   int32_t v24vIMv = (static_cast<int32_t>(analogRead(pins::k24VCurrentSense)) * 3300) / 4095;
   s_i24vMa = v24vIMv / 2;
+}
+
+void nodeServiceLog(uint32_t nowMs, AimFlightRecorder& recorder) {
+  if (!s_logJob.due(nowMs)) return;
+
+  uint32_t rowData[kLogCols] = {nowMs, s_batteryMv, s_5vMv, s_gseMv};
+  recorder.writeRow(rowData, nowMs);
 }
 
 void nodeServiceCanTx(uint32_t nowMs, AimNetwork& aim) {
