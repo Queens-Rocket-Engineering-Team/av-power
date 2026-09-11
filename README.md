@@ -1,5 +1,5 @@
-# Avionics Power Deliver (Power Module, Backplane, Screw Switch, etc)
-> 2023-2026 Season - Power Deliver Projects
+# Avionics Power Delivery (Power Module, Backplane, Screw Switch, etc)
+> 2023-2026 Season - Power Delivery Projects
 
 -  Repo contains board's **firmware**, **schematics**, and related **documentation and datasheets**.
 -  The **Main** branch contains current functional hardware/software
